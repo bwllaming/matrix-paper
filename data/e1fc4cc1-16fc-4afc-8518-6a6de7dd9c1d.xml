@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>jyuyjo8U8tlc</cbc:ID>
+    <cbc:IssueDate>2023-12-07</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Serie:N - Folio:9876543210 - x7kl432p-987c-6d5e-bf4a-12345f67gh89 - Sello:Xy9KLMn8pQ4rS2tU3vW5xY7zAb1Cd2Ef3Gh4Ij5Kl6Mn7Np8Qr9St0Uv - noCertificado:00001000000900040567 - certificado:[CERTIFICATE_DATA_REDACTED] - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL SHIPPING SOLUTIONS MEXICO</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>INTERNATIONAL LOGISTICS SERVICES</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Serie:N - Folio:9876543210 - x7kl432p-987c-6d5e-bf4a-12345f67gh89 - Sello:Xy9KLMn8pQ4rS2tU3vW5xY7zAb1Cd2Ef3Gh4Ij5Kl6Mn7Np8Qr9St0Uv - noCertificado:00001000000900040567 - certificado:[CERTIFICATE_DATA_REDACTED] - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            260.82
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            41.73
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            302.55
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            302.55
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            52.92
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>BASIC CONTAINER CLEANING (WASH. XPCU7654321 OCNU9876543</cbc:Description>
+            <cbc:Name>BASIC CONTAINER CLEANING (WASH. XPCU7654321 OCNU9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">52.92</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            132.3
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>RELEASE FEE N OCNU9876543</cbc:Description>
+            <cbc:Name>RELEASE FEE N OCNU9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">132.3</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            37.8
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>MERCHANT HAULAGE ADMIN FEE XPCU7654321 OCNU9876543</cbc:Description>
+            <cbc:Name>MERCHANT HAULAGE ADMIN FEE XPCU7654321 OCNU9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">37.8</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            37.8
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee XPCU7654321 OCNU9876543</cbc:Description>
+            <cbc:Name>Container Protection Fee XPCU7654321 OCNU9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">37.8</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

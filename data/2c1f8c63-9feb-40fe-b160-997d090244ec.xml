@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>RtoRbng3BDpxDdA4</cbc:ID>
+    <cbc:IssueDate>2025-02-25</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+ONLY: FIVE HUNDRED EIGHT TL AND EIGHTY KR
+Ship Name: OCEANSTAR VOYAGER
+Berthing Date:
+Ship Voyage No: 7KR9MN4WX
+Ship Agent: GLOBAL MARITIME LOGISTICS CO.
+Payment Date: 07.08.2024
+Last Service Date: 06.08.2024
+PO Number:
+BRANCH: Branch; 123 HARBOR STREET NO:15; 41780 SEASIDE / MARMARA; Tel: 0 262 555 44 33-34 Fax: 0 (262) 555 44 35
+Exchange Rate: 1
+HPXR8392145 service 06/08/2024 06/08/2024
+SeaPort Operations Inc. reserves the right to apply commercial late payment interest to unpaid invoices
+Contact Person &amp; Information: SeaPort Operations Job SPJOB - customerservice@seaportops.com - (0850) 555 12 34
+REF:SAP Invoice No: 9920567834
+BTR: VBRK
+Invoice is in TRY currency. Payments made in other currencies will not gain value against this invoice.
+
+Our Bank Details
+TL: TR980007500000187650043219 : COMMERCE BANK - DOWNTOWN BRANCH - 1875
+STS:</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>SeaPort Operations and Logistics Corporation</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Maritime Industrial Zone, Harbor Boulevard X-1 Special Plot</cbc:StreetName>
+                <cbc:CityName>LONDON</cbc:CityName>
+                <cbc:PostalZone>12398</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Freight Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Zone District 5</cbc:StreetName>
+                <cbc:CityName>LONDON</cbc:CityName>
+                <cbc:PostalZone>12398</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+ONLY: FIVE HUNDRED EIGHT TL AND EIGHTY KR
+Ship Name: OCEANSTAR VOYAGER
+Berthing Date:
+Ship Voyage No: 7KR9MN4WX
+Ship Agent: GLOBAL MARITIME LOGISTICS CO.
+Payment Date: 07.08.2024
+Last Service Date: 06.08.2024
+PO Number:
+BRANCH: Branch; 123 HARBOR STREET NO:15; 41780 SEASIDE / MARMARA; Tel: 0 262 555 44 33-34 Fax: 0 (262) 555 44 35
+Exchange Rate: 1
+HPXR8392145 service 06/08/2024 06/08/2024
+SeaPort Operations Inc. reserves the right to apply commercial late payment interest to unpaid invoices
+Contact Person &amp; Information: SeaPort Operations Job SPJOB - customerservice@seaportops.com - (0850) 555 12 34
+REF:SAP Invoice No: 9920567834
+BTR: VBRK
+Invoice is in TRY currency. Payments made in other currencies will not gain value against this invoice.
+
+Our Bank Details
+TL: TR980007500000187650043219 : COMMERCE BANK - DOWNTOWN BRANCH - 1875
+STS:</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            761.56
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            152.31
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            913.88
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            913.88
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            761.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Weighing Service 20" GP Export Full</cbc:Description>
+            <cbc:Name>Container Weighing Service 20" GP Export Full</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">761.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

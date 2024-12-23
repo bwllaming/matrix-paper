@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>GzvIV5158dPW1ZOe</cbc:ID>
+    <cbc:IssueDate>2025-06-01</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>EXEMPTION NOTE: ONLY: TWO THOUSAND FOUR HUNDRED AND FIFTY USD AND ZERO CENTS UPR No  NOTE:ETA:15-12-2025 NOTE:ETD:05-11-2025 NOTE:PCD:05-11-2025 NOTE:1. Issued without VAT according to Article 14/1 of Law No. 3065 UPL: Bill of Lading No: 847592136 UPL:Note: 9374615820-4738 UPR Date:06.11.2025 UPR No  UPR Due:30 Days Term UPR Date(Note 4):05.12.2025 NOTE:Origin: Gulf of Izmit NOTE:Destination: Cotonou NOTE:Port: Cotonou NOTE:Vessel: PACIFIC VOYAGER(SG) / 582N NOTE:SNO: 1-23 [Container numbers redacted for privacy] NOTE Type: 40 / 9.6 / DRY, 20 / 8.6 / DRY, 99 / MIXED NOTE:Terms: CY-CY NOTE:2-7. [Standard payment and banking information redacted]</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>OCEANEX SHIPPING LTD</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>MARITIME PLAZA, HARBOR DISTRICT 2</cbc:StreetName>
+                <cbc:CityName>COPENHAGEN</cbc:CityName>
+                <cbc:PostalZone>DK1263</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS PARTNERS INC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>COMMERCE AVENUE, TRADE CENTER</cbc:StreetName>
+                <cbc:CityName>OSLO</cbc:CityName>
+                <cbc:PostalZone>95993</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>EXEMPTION
+NOTE: ONLY: TWO THOUSAND ONE HUNDRED AND SIXTY USD AND ZERO CENTS
+UPR:Reference No:XK9371628495
+NOTE:ETA:15-09-2024
+NOTE:ETD:05-08-2024
+NOTE:PCD:05-08-2024
+NOTE:1. Issued without VAT according to Article 14/1 of Law No. 3065
+UPL: Bill of Lading No: 847592136
+UPL:Note: 9374615820-4738
+UPR:Invoice Date:06.08.2024
+UPR:Customer No:XC84726159
+UPR:Invoice Due:30 Days Term
+UPR:Payment Date(Note 4):05.09.2024
+NOTE:Origin: Gulf of Izmit
+NOTE:Destination: Cotonou
+NOTE:Port: Cotonou
+NOTE:Vessel: PACIFIC VOYAGER(SG) / 582N
+NOTE:SNO: 1-23 [Container numbers redacted for privacy]
+NOTE:Container Type: 40 / 9.6 / DRY, 20 / 8.6 / DRY, 99 / MIXED
+NOTE:Terms: CY-CY
+NOTE:2-7. [Standard payment and banking information redacted]</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            4307.45
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            4307.45
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            4307.45
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">4.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            358.95
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export demurrage</cbc:Description>
+            <cbc:Name>Export demurrage</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">89.74</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            358.95
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export demurrage</cbc:Description>
+            <cbc:Name>Export demurrage</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">358.95</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">12.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            2153.73
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export demurrage</cbc:Description>
+            <cbc:Name>Export demurrage</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">179.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">6.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            1435.82
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export demurrage</cbc:Description>
+            <cbc:Name>Export demurrage</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">239.3</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

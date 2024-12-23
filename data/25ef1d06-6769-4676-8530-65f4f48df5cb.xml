@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>9kBUtde</cbc:ID>
+    <cbc:IssueDate>2024-10-21</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02Payment Mode: MP05Payment Terms Reference Date: 2024-07-31Payment Terms (Days): 61Payment Due Date: 2024-09-30 46391Document Type: TD01</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>TransGlobal Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Avenue</cbc:StreetName>
+                <cbc:CityName>Riverside Heights</cbc:CityName>
+                <cbc:PostalZone>50056</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Freight &amp; Logistics Corp.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Commerce Boulevard 50</cbc:StreetName>
+                <cbc:CityName>Portview</cbc:CityName>
+                <cbc:PostalZone>20090</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02Payment Mode: MP05Payment Terms Reference Date: 2024-07-31Payment Terms (Days): 61Payment Due Date: 2024-09-30: 46391Document Type: TD01</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            414.91
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            414.91
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            414.91
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            166.73
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.055913 dated 03/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 7392846510-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.055913 dated 03/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 7392846510-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">166.73</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            4.01
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.057454 dated 09/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 8463917520-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.057454 dated 09/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 8463917520-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">4.01</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            10.67
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.057766 dated 10/07/2024 Sender: AlphaCore Industries - Recipient: Maritime Solutions Inc - Ref. sender: 9517382640-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.057766 dated 10/07/2024 Sender: AlphaCore Industries - Recipient: Maritime Solutions Inc - Ref. sender: 9517382640-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">10.67</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            166.73
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.058190 dated 11/07/2024 Sender: Coastal Designs Ltd - Recipient: Maritime Solutions Inc - Ref. sender: 2846391750-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.058190 dated 11/07/2024 Sender: Coastal Designs Ltd - Recipient: Maritime Solutions Inc - Ref. sender: 2846391750-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">166.73</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            4.01
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.058802 dated 12/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 6391752840-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.058802 dated 12/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 6391752840-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">4.01</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            10.67
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.059536 dated 16/07/2024 Sender: PrimeForms International - Recipient: Maritime Solutions Inc - Ref. sender: 4628519730-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.059536 dated 16/07/2024 Sender: PrimeForms International - Recipient: Maritime Solutions Inc - Ref. sender: 4628519730-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">10.67</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            48.09
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.059779 dated 17/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 7519382640-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.059779 dated 17/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 7519382640-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">48.09</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            4.01
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Case No. DET24.063026 dated 29/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 8462937510-9275</cbc:Description>
+            <cbc:Name>Case No. DET24.063026 dated 29/07/2024 Sender: TechFlow Dynamics Ltd - Recipient: Global Logistics Partners - Ref. sender: 8462937510-9275</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">4.01</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

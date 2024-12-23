@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>oUlLIeQdJmSa2ptD</cbc:ID>
+    <cbc:IssueDate>2024-08-16</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>EXEMPT#BIMNO=TRXYPN240087654#Business Registry No:7892145630123456This invoice will be paid in the currency it was issued. Invoice registration amount is TL 95788.96.Only TWOTHOUSANDEIGHTHUNDREDNINETYSIXUSDBL: GBTUR7891234AGENCY / 2345678901Exchange Rate: 33.07630VESSEL NAME/VOYAGE NO: MSC ATLANTIC STAR / XY789ZVESSEL ARRIVAL/DEPARTURE DATE: 20240806LOADING PORT: TRGEB (GEBZE)DISCHARGE PORT: GBFXT (FELIXSTOWE)REGION: IstanbulInvoice Note 2: 5847632901Shipper: GLOBAL LOGISTICS SERVICES LTDConsignee: INTERNATIONAL FREIGHT SOLUTIONS LTDNotify: INTERNATIONAL FREIGHT SOLUTIONS LTDContainer No: XYZU8521479 ABCD2367891 EFGH4521897 IJKL7412589 MNOP6325874 QRST9632587 UVWX4178523Package Details: 168Cubic Meters: 240.0000Container Gross Tons: 168220.0000Gross Tons: USD Exchange Rate = 1.00000#MECRA=GBTUR7891234#</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Maritime Shipping Solutions Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor View Street 123</cbc:StreetName>
+                <cbc:CityName>Port City</cbc:CityName>
+                <cbc:PostalZone>45678</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Transport Systems Ltd. (8000045678)</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Logistics Park Avenue 456</cbc:StreetName>
+                <cbc:CityName>Trading City</cbc:CityName>
+                <cbc:PostalZone>12345</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>EXEMPT
+#BIMNO=TRXYPN240087654#
+Business Registry No:7892145630123456
+This invoice will be paid in the currency it was issued. Invoice registration amount is TL 95788.96.
+Only TWOTHOUSANDEIGHTHUNDREDNINETYSIXUSD
+BL: GBTUR7891234
+AGENCY / 2345678901
+Exchange Rate: 33.07630
+VESSEL NAME/VOYAGE NO: MSC ATLANTIC STAR / XY789Z
+VESSEL ARRIVAL/DEPARTURE DATE: 20240806
+LOADING PORT: TRGEB (GEBZE)
+DISCHARGE PORT: GBFXT (FELIXSTOWE)
+REGION: Istanbul
+Invoice Note 2: 5847632901
+Shipper: GLOBAL LOGISTICS SERVICES LTD
+Consignee: INTERNATIONAL FREIGHT SOLUTIONS LTD
+Notify: INTERNATIONAL FREIGHT SOLUTIONS LTD
+Container No: XYZU8521479 ABCD2367891 EFGH4521897 IJKL7412589 MNOP6325874 QRST9632587 UVWX4178523
+Package Details: 168
+Cubic Meters: 240.0000
+Container Gross Tons: 168220.0000
+Gross Tons: 137780.0000
+USD / USD Exchange Rate = 1.00000
+#MECRA=GBTUR7891234#</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            4784.27
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            164.03
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            4948.3
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            4948.3
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">8.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            3964.11
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>LOADING AND TERMINAL SERVICES</cbc:Description>
+            <cbc:Name>LOADING AND TERMINAL SERVICES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">495.51</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">8.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            820.16
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EXPORT PORT SERVICES</cbc:Description>
+            <cbc:Name>EXPORT PORT SERVICES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">102.52</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>KRGrmjvmxUACQrjX</cbc:ID>
+    <cbc:IssueDate>2024-12-26</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+Only #FiveThousandOneHundred TL#
+Serves as delivery note.
+BXRT.847365-2 WEST INTERNATIONAL / TN8492736514 NO WITHHOLDING TAX IS SHOWN AS THE TRANSPORTATION CONTENT OF THE INVOICE IS PERFORMED BY SUB-CONTRACTORS.</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>ALTAIR LOGISTICS SERVICES TRADE CO.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>REPUBLIC Ave. 1987. STR. SKYLINE 1 RESIDENCE FL:3 APT:11</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>STELLAR FREIGHT &amp; LOGISTICS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>ZIYA GOKALP District BUSINESS BOULEVARD THE OFFICE</cbc:StreetName>
+                <cbc:CityName>ISTANBUL</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+Only #FiveThousandOneHundred TL#
+Serves as delivery note.
+BXRT.847365-2 WEST INTERNATIONAL / TN8492736514 NO WITHHOLDING TAX IS SHOWN AS THE TRANSPORTATION CONTENT OF THE INVOICE IS PERFORMED BY SUB-CONTRACTORS.</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            4142.04
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            828.41
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            4970.45
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            4970.45
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            4142.04
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>AMBARLI ESENYURT TRANSPORTATION FEE</cbc:Description>
+            <cbc:Name>AMBARLI ESENYURT TRANSPORTATION FEE</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">4142.04</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

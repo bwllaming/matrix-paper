@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>5ZCxt5HxjZNXEiox</cbc:ID>
+    <cbc:IssueDate>2024-04-29</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+ONLY: FIVE HUNDRED EIGHT TL AND EIGHTY KR
+Ship Name: MARINER
+Berthing Date:
+Ship Voyage No: XKL847P24
+Ship Agent: OCEANIC GLOBAL SHIPPING CO.
+Payment Date: 03.08.2024
+Last Service Date: 02.08.2024
+PO Number:
+BRANCH: Branch; 123 HARBOR STREET NO:45; 41780 SEASIDE / COASTAL; Tel: 0 262 555 44 33 Fax: 0 (262) 555 44 34
+Exchange Rate: 1
+Service RKM7392614 02/08/2024 02/08/2024
+Maritime Services Inc. reserves the right to apply commercial late payment interest on overdue invoices
+Contact Person &amp; Info: Port Services Job PRTJB - customerservice@portservices.com - (0850) 555 12 34
+DTY: SAP Invoice No: 0087654321
+BTR: VBRK
+Invoice is in TRY currency. Payments made in other currencies will not be credited against this invoice.
+
+Bank Details
+TL: TR980007500000187654321098: COASTAL BANK - HARBOR BRANCH - 7890
+STS:</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Maritime Terminal Operations and Logistics Corporation</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Port Zone, Harbor Avenue X-1 Special Plot</cbc:StreetName>
+                <cbc:CityName>ISTANBUL</cbc:CityName>
+                <cbc:PostalZone>34957</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Freight Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>INDUSTRIAL ZONE DISTRICT</cbc:StreetName>
+                <cbc:CityName>ISTANBUL</cbc:CityName>
+                <cbc:PostalZone>34000</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+ONLY: FIVE HUNDRED EIGHT TL AND EIGHTY KR
+Ship Name: MARINER
+Berthing Date:
+Ship Voyage No: XKL847P24
+Ship Agent: OCEANIC GLOBAL SHIPPING CO.
+Payment Date: 03.08.2024
+Last Service Date: 02.08.2024
+PO Number:
+BRANCH: Branch; 123 HARBOR STREET NO:45; 41780 SEASIDE / COASTAL; Tel: 0 262 555 44 33 Fax: 0 (262) 555 44 34
+Exchange Rate: 1
+Service RKM7392614 02/08/2024 02/08/2024
+Maritime Services Inc. reserves the right to apply commercial late payment interest on overdue invoices
+Contact Person &amp; Info: Port Services Job PRTJB - customerservice@portservices.com - (0850) 555 12 34
+DTY: SAP Invoice No: 0087654321
+BTR: VBRK
+Invoice is in TRY currency. Payments made in other currencies will not be credited against this invoice.
+
+Bank Details
+TL: TR980007500000187654321098: COASTAL BANK - HARBOR BRANCH - 7890
+STS:</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            797.21
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            159.44
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            956.65
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            956.65
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            797.21
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Weighing Service 40" GP Export Full</cbc:Description>
+            <cbc:Name>Container Weighing Service 40" GP Export Full</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">797.21</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

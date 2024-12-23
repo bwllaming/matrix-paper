@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>mEtfbnn5ZEtB</cbc:ID>
+    <cbc:IssueDate>2023-08-16</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Series:X - Folio:987654321 - k892mnd4-7531-98p2-64vb-12rtf9h85jkl - Certificate:XYZ123456789</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Maritime Services Ltd</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Logistics Solutions</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Series:X - Folio:987654321 - k892mnd4-7531-98p2-64vb-12rtf9h85jkl - Certificate:XYZ123456789</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            171.75
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            27.48
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            199.23
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            199.23
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            17.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (CLN. CNTR7539514 SHPRF789012)</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (CLN. CNTR7539514 SHPRF789012)</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">17.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            17.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (CLN. CNTR8642135 SHPRF789012)</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (CLN. CNTR8642135 SHPRF789012)</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">17.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            17.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (CLN. CNTR9753146 SHPRF789012)</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (CLN. CNTR9753146 SHPRF789012)</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">17.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            43.88
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Release Fee N SHPRF789012</cbc:Description>
+            <cbc:Name>Release Fee N SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">43.88</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            12.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Merchant Haulage Admin Fee CNTR7539514 SHPRF789012</cbc:Description>
+            <cbc:Name>Merchant Haulage Admin Fee CNTR7539514 SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">12.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            12.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Merchant Haulage Admin Fee CNTR8642135 SHPRF789012</cbc:Description>
+            <cbc:Name>Merchant Haulage Admin Fee CNTR8642135 SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">12.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            12.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Merchant Haulage Admin Fee CNTR9753146 SHPRF789012</cbc:Description>
+            <cbc:Name>Merchant Haulage Admin Fee CNTR9753146 SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">12.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            12.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Maintenance Repair Fee CNTR7539514 SHPRF789012</cbc:Description>
+            <cbc:Name>Container Maintenance Repair Fee CNTR7539514 SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">12.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>9</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            12.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Maintenance Repair Fee CNTR8642135 SHPRF789012</cbc:Description>
+            <cbc:Name>Container Maintenance Repair Fee CNTR8642135 SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">12.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>10</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            12.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Maintenance Repair Fee CNTR9753146 SHPRF789012</cbc:Description>
+            <cbc:Name>Container Maintenance Repair Fee CNTR9753146 SHPRF789012</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">12.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

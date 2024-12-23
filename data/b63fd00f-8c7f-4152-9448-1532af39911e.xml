@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>pmsC3ATLyn16NYml</cbc:ID>
+    <cbc:IssueDate>2024-09-05</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Transit Solutions Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>123 Harbor View Road, Suite 42</cbc:StreetName>
+                <cbc:CityName>Newport</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Worldwide Logistics Partners Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>456 Commerce Center, Unit 41</cbc:StreetName>
+                <cbc:CityName>Newport</cbc:CityName>
+                <cbc:PostalZone>54321</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE, 26.07.2024 / 6 PALLETS / ALKIN MACHINERY / TORBALI > SARP WAREHOUSE / BUYUKCEKMECE / SHIPPING FEE / NO WITHHOLDING TAX DUE TO SUBCONTRACTOR USAGE., , Ref No: asdjaksd8-112312j, , Delivery Note No: , Exchange Rate: , TL Amount: 11,400.00 -In words: Eleven Thousand Four Hundred TL-, Tax Exemption Information: #EFN_RECIPIENT_TAG#urn:mail:defaultpk@kuehne-nagel.com#</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            13413.78
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            2682.76
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            16096.53
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            16096.53
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            13413.78
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INTERNAL FINAL TRANSPORT</cbc:Description>
+            <cbc:Name>INTERNAL FINAL TRANSPORT</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">13413.78</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

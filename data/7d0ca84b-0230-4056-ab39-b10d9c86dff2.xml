@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>sQS0Q6tPB</cbc:ID>
+    <cbc:IssueDate>2024-11-30</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02Payment Mode: MP05Payment Terms Reference Date: 2024-02-06Payment Terms (Days): 86Payment amount: 67.80Bank: Global Trust BankIBAN: NL82R9475916320074931Document Type: TD01Your Ref. 7392841506</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Avenue 15</cbc:StreetName>
+                <cbc:CityName>Riverside Park</cbc:CityName>
+                <cbc:PostalZone>39399</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>TransCargo International S.R.L.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Commerce Street 78</cbc:StreetName>
+                <cbc:CityName>Metropolitan City</cbc:CityName>
+                <cbc:PostalZone>39993</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02Payment Mode: MP05Payment Terms Reference Date: 2024-02-06Payment Terms (Days): 86Payment amount: 67.80Bank: Global Trust BankIBAN: NL82R9475916320074931Document Type: TD01Your Ref. 7392841506</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            77.97
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            77.97
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            77.97
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            24.74
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Customs Operations</cbc:Description>
+            <cbc:Name>Export Customs Operations</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">24.74</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.33</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            28.5
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>LCL Handling Fees</cbc:Description>
+            <cbc:Name>LCL Handling Fees</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">19.79</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            24.74
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Bill of Lading Issuance</cbc:Description>
+            <cbc:Name>Bill of Lading Issuance</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">24.74</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

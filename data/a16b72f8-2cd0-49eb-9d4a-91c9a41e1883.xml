@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>VqLVpK5ksYTquLug</cbc:ID>
+    <cbc:IssueDate>2025-04-13</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALES
+MAILTO:john.smith@logistics-corp.com
+ONLY FIVE HUNDRED EIGHT TL EIGHTY KURUS
+Due Date: 05.08.2024
+VOYAGE:
+TRXK7891234
+Bill of Lading / Booking: IST7845632
+PO:
+Other1:
+Other2:
+3% monthly interest applies for invoices not paid by due date
+Our Bank Account Numbers
+WESTBANK CENTRAL COMMERCIAL BRANCH TL: TR980007500123456000012345
+WESTBANK CENTRAL COMMERCIAL BRANCH EURO: TR760007500123456000012346
+WESTBANK CENTRAL COMMERCIAL BRANCH USD: TR540007500123456000012347
+INVOICE: BR00200000789456</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>SEAPORT CONTAINER TERMINAL AND PORT OPERATIONS INC.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>INDUSTRIAL ZONE 1ST SECTION BLUE RIVER ST. NO:18</cbc:StreetName>
+                <cbc:CityName>Westport</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS SOLUTIONS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>CENTRAL BLOCK C FLOOR:30 GREENVIEW DISTRICT BUSINESS ST. PLATINUM OFFICE</cbc:StreetName>
+                <cbc:CityName>EASTPORT</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALES
+MAILTO:john.smith@logistics-corp.com
+ONLY FIVE HUNDRED EIGHT TL EIGHTY KURUS
+Due Date: 05.08.2024
+VOYAGE:
+TRXK7891234
+Bill of Lading / Booking: IST7845632
+PO:
+Other1:
+Other2:
+3% monthly interest applies for invoices not paid by due date
+Our Bank Account Numbers
+WESTBANK CENTRAL COMMERCIAL BRANCH TL: TR980007500123456000012345
+WESTBANK CENTRAL COMMERCIAL BRANCH EURO: TR760007500123456000012346
+WESTBANK CENTRAL COMMERCIAL BRANCH USD: TR540007500123456000012347
+INVOICE: BR00200000789456</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            810.06
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            162.01
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            972.07
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            972.07
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            810.06
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container VGM Service</cbc:Description>
+            <cbc:Name>Container VGM Service</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">810.06</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

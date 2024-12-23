@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>2U4BcGbc</cbc:ID>
+    <cbc:IssueDate>2023-12-07</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Document Type: TD01IT7839465/2NKRXP9374125W</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL FREIGHT SOLUTIONS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>VIA MILANO</cbc:StreetName>
+                <cbc:CityName>ROME</cbc:CityName>
+                <cbc:PostalZone>00146</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>SWIFT LOGISTICS CORPORATION</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>VIA GIUSEPPE VERDI</cbc:StreetName>
+                <cbc:CityName>ROME</cbc:CityName>
+                <cbc:PostalZone>00138</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Document Type: TD01IT7839465/2NKRXP9374125W</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            894.22
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            894.22
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            894.22
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            312.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>SEA FREIGHT 10.8000 CBM/KG 34.50 USD 372.60 0.9285</cbc:Description>
+            <cbc:Name>SEA FREIGHT 10.8000 CBM/KG 34.50 USD 372.60 0.9285</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">312.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>CUSTOMS OPERATION ------- FLAT 15.00 EUR 15.00 1.0000</cbc:Description>
+            <cbc:Name>CUSTOMS OPERATION ------- FLAT 15.00 EUR 15.00 1.0000</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            25.17
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>B/L ISSUANCE &amp; ISPS ------- FLAT 30.00 USD 30.00 0.9285</cbc:Description>
+            <cbc:Name>B/L ISSUANCE &amp; ISPS ------- FLAT 30.00 USD 30.00 0.9285</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">25.17</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            234.9
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>PICK UP SERVICE ------- FLAT 260.00 EUR 260.00 1.0000</cbc:Description>
+            <cbc:Name>PICK UP SERVICE ------- FLAT 260.00 EUR 260.00 1.0000</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">234.9</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            81.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>WAREHOUSE HANDLING 10.8000 CBM/KG 9.00 USD 97.20 0.9285</cbc:Description>
+            <cbc:Name>WAREHOUSE HANDLING 10.8000 CBM/KG 9.00 USD 97.20 0.9285</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">81.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            226.5
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>OPERATIONAL COST 10.8000 CBM/KG 25.00 USD 270.00 0.9285 RECOVERY Operational recovery surcharge</cbc:Description>
+            <cbc:Name>OPERATIONAL COST 10.8000 CBM/KG 25.00 USD 270.00 0.9285 RECOVERY Operational recovery surcharge</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">226.5</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

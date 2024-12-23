@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>CNMoF</cbc:ID>
+    <cbc:IssueDate>2024-10-29</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Due Date: 2024-10-31
+Payment amount: 63.33
+Payment Code: DIRECT PAYMENT 60 DAYS END OF MONTH
+Document Type: TD01Our Reference: X7K9NM523Your Reference: 7391846025 byVessel: OCEAN VOYAGER         OF 15/07/24 Currency : EUR Value : 45,153.45</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS SERVICES INC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>HARBOR BOULEVARD</cbc:StreetName>
+                <cbc:CityName>La Spezia</cbc:CityName>
+                <cbc:PostalZone>19126</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>WORLDWIDE FREIGHT SOLUTIONS LTD</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>LOGISTICS PARK, 14 D/E</cbc:StreetName>
+                <cbc:CityName>PRATO</cbc:CityName>
+                <cbc:PostalZone>59100</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Due Date: 2024-10-31
+Payment amount: 63.33
+Payment Code: DIRECT PAYMENT 60 DAYS END OF MONTH
+Document Type: TD01Our Reference: X7K9NM523Your Reference: 7391846025 byVessel: OCEAN VOYAGER         OF 15/07/24 Currency : EUR Value : 45,153.45</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            57.38
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.25
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            57.63
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            57.63
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>M/V: OCEAN VOYAGER</cbc:Description>
+            <cbc:Name>M/V: OCEAN VOYAGER</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>OUR REF.: X7K9NM523</cbc:Description>
+            <cbc:Name>OUR REF.: X7K9NM523</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>YOUR REF. 7391846025</cbc:Description>
+            <cbc:Name>YOUR REF. 7391846025</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>CNTR9384756</cbc:Description>
+            <cbc:Name>CNTR9384756</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>DISCHARGE : UNITED STATES</cbc:Description>
+            <cbc:Name>DISCHARGE : UNITED STATES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EX     00057602 A OF 18.07.2024 CUST. 262102</cbc:Description>
+            <cbc:Name>EX     00057602 A OF 18.07.2024 CUST. 262102</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>MRN: 24ITQ3E010057602E3</cbc:Description>
+            <cbc:Name>MRN: 24ITQ3E010057602E3</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            16.38
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Assistance for customs operations 1/1 loading unit</cbc:Description>
+            <cbc:Name>Assistance for customs operations 1/1 loading unit</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">16.38</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>9</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>cargo</cbc:Description>
+            <cbc:Name>cargo</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>10</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            4.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Entry permits</cbc:Description>
+            <cbc:Name>Entry permits</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">4.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>11</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            17.23
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Customs duties as per EX1 receipt</cbc:Description>
+            <cbc:Name>Customs duties as per EX1 receipt</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">17.23</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>12</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            2.73
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>fixed fee</cbc:Description>
+            <cbc:Name>fixed fee</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">2.73</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>13</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            2.64
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Additional fee</cbc:Description>
+            <cbc:Name>Additional fee</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">2.64</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>14</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1.12
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Decree n.95 31/01/2017 issued by ADSP</cbc:Description>
+            <cbc:Name>Decree n.95 31/01/2017 issued by ADSP</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1.12</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>15</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>remuneration for management and</cbc:Description>
+            <cbc:Name>remuneration for management and</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>16</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>maintenance E-port</cbc:Description>
+            <cbc:Name>maintenance E-port</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>17</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            10.92
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Port Gate In Fee</cbc:Description>
+            <cbc:Name>Port Gate In Fee</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">10.92</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>18</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1.82
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Documentation sending reengineering</cbc:Description>
+            <cbc:Name>Documentation sending reengineering</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1.82</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

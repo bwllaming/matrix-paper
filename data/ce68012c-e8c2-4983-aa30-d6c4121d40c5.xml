@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>De1Ejct</cbc:ID>
+    <cbc:IssueDate>2024-02-10</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Terms: PT30
+Payment Method: PM03
+Due Date: 2024-09-30
+Payment Amount: 46191.61
+Bank Account: GB98H0203087250000001234567
+
+Document Type: DT01 GLOBAL LOGISTICS LTD</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Solutions Ltd</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Commerce Street 123</cbc:StreetName>
+                <cbc:CityName>Portsmouth</cbc:CityName>
+                <cbc:PostalZone>PO1 2AB</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Transport Services Inc</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Business Avenue 456</cbc:StreetName>
+                <cbc:CityName>New York</cbc:CityName>
+                <cbc:PostalZone>NY 10001</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Terms: PT30
+Payment Method: PM03
+Due Date: 2024-09-30
+Payment Amount: 46191.61
+Bank Account: GB98H0203087250000001234567
+
+Document Type: DT01 GLOBAL LOGISTICS LTD</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            342.79
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            342.79
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            342.79
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Charges for Extra-EU Export Transportation Services rendered for your account 01/07/2024 -- 31/07/2024</cbc:Description>
+            <cbc:Name>Charges for Extra-EU Export Transportation Services rendered for your account 01/07/2024 -- 31/07/2024</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Ref. Your doc. No.RT78945612-789 -- Ref. Our Doc. No. 26487/1</cbc:Description>
+            <cbc:Name>Ref. Your doc. No.RT78945612-789 -- Ref. Our Doc. No. 26487/1</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            342.79
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>08/07/2024 40 HIGH CUBE REEFER PH PORTCITY - WESTVILLE - PORTCITY - Container: XYZC8594766 Booking: RT63280427</cbc:Description>
+            <cbc:Name>08/07/2024 40 HIGH CUBE REEFER PH PORTCITY - WESTVILLE - PORTCITY - Container: XYZC8594766 Booking: RT63280427</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">342.79</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

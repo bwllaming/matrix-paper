@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>q5M7fnZAiFVVSKT1</cbc:ID>
+    <cbc:IssueDate>2024-12-08</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE, 05.08.2024 / CONTAINER NO XRTU7392841 / REF 9374628105/ VGM FEE, OrderNo: KMSXN24-8731964, RefNo: KLTRMTRS-9384261, Delivery Note: 947283, Exchange Rate: , TL Amount: 360.00 -, Tax Exemption Information: #EFN_RECIPIENT_TAG#urn:mail:defaultpk@logistics-corp.com#</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Transport Solutions Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>384 Harbor Boulevard, Suite 42</cbc:StreetName>
+                <cbc:CityName>Portview</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Logistics Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>41 Commerce Center, 2nd Floor</cbc:StreetName>
+                <cbc:CityName>Portview</cbc:CityName>
+                <cbc:PostalZone>66654</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE, 05.08.2024 / CONTAINER NO XRTU7392841 / REF 9374628105/ VGM FEE, OrderNo: KMSXN24-8731964, RefNo: KLTRMTRS-9384261, Delivery Note: 947283, Exchange Rate: , TL Amount: 360.00 -, Tax Exemption Information: #EFN_RECIPIENT_TAG#urn:mail:defaultpk@logistics-corp.com#</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            255.83
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            51.17
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            307.0
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            307.0
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            255.83
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>SERVICE FEE (INCLUDING VAT)</cbc:Description>
+            <cbc:Name>SERVICE FEE (INCLUDING VAT)</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">255.83</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

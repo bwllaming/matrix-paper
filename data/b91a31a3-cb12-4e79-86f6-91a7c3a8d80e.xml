@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>WgBE5Z9</cbc:ID>
+    <cbc:IssueDate>2024-01-18</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Terms: TP02
+Payment Method: MP05
+Due Date: 2024-09-30
+Amount: 41545.77
+Bank: NORTHERN TRUST BANK - BR 40119
+IBAN: GB29NWBK60161331926819
+BIC: NWBKGB2L
+
+Document Type: TD01</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Ltd</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>123 Transport Way</cbc:StreetName>
+                <cbc:CityName>London</cbc:CityName>
+                <cbc:PostalZone>EC1A 1BB</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Swift Shipping Solutions</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>456 Cargo Street</cbc:StreetName>
+                <cbc:CityName>Birmingham</cbc:CityName>
+                <cbc:PostalZone>B1 1AA</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Terms: TP02
+Payment Method: MP05
+Due Date: 2024-09-30
+Amount: 41545.77
+Bank: NORTHERN TRUST BANK - BR 40119
+IBAN: GB29NWBK60161331926819
+BIC: NWBKGB2L
+
+Document Type: TD01</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            235.41
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            235.41
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            235.41
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            114.34
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>CLIENT RENTAL Shipment Ref: XR7892/SH dated 02/07/2024 
+	External Shipment Ref: 9287465321
+	Pickup: Brighton(BN)GB
+	Delivery: Leeds(LS)GB
+	Documents: B25R87465321</cbc:Description>
+            <cbc:Name>CLIENT RENTAL Shipment Ref: XR7892/SH dated 02/07/2024 
+	External Shipment Ref: 9287465321
+	Pickup: Brighton(BN)GB
+	Delivery: Leeds(LS)GB
+	Documents: B25R87465321</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">114.34</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            121.07
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>CLIENT RENTAL Shipment Ref: XR8934/SH dated 03/07/2024 
+	External Shipment Ref: 8376541298
+	Pickup: Manchester(M)GB
+	Delivery: Bristol(BS)GB
+	Documents: B25R76541298</cbc:Description>
+            <cbc:Name>CLIENT RENTAL Shipment Ref: XR8934/SH dated 03/07/2024 
+	External Shipment Ref: 8376541298
+	Pickup: Manchester(M)GB
+	Delivery: Bristol(BS)GB
+	Documents: B25R76541298</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">121.07</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

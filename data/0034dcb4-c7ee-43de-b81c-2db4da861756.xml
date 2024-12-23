@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>q1vvk</cbc:ID>
+    <cbc:IssueDate>2023-12-06</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Due Date: 2024-10-31
+Payment amount: 54.37
+Payment Code: DIRECT PAYMENT 60 DAYS END OF MONTH
+Document Type: TD01
+Our Reference: X7KL9M45N2
+Your Reference: 7R9K2W8H4P dated
+Vessel: PACIFIC VOYAGER VIII    DATE 02/08/24</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Solutions Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>HARBOR BOULEVARD</cbc:StreetName>
+                <cbc:CityName>Randers</cbc:CityName>
+                <cbc:PostalZone>8900</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Freight Services Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>INDUSTRIAL PARK WAY, 14 D/E</cbc:StreetName>
+                <cbc:CityName>Aarhus</cbc:CityName>
+                <cbc:PostalZone>8000</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Due Date: 2024-10-31
+Payment amount: 54.37
+Payment Code: DIRECT PAYMENT 60 DAYS END OF MONTH
+Document Type: TD01
+Our Reference: X7KL9M45N2
+Your Reference: 7R9K2W8H4P dated
+Vessel: PACIFIC VOYAGER VIII    DATE 02/08/24</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            92.68
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.46
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            93.14
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            93.14
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>M/V: PACIFIC VOYAGER VIII</cbc:Description>
+            <cbc:Name>M/V: PACIFIC VOYAGER VIII</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>OUR REF.: X7KL9M45N2</cbc:Description>
+            <cbc:Name>OUR REF.: X7KL9M45N2</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>YOUR REF. 7R9K2W8H4P</cbc:Description>
+            <cbc:Name>YOUR REF. 7R9K2W8H4P</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>WXYZ9876543</cbc:Description>
+            <cbc:Name>WXYZ9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>DESTINATION: UNITED STATES</cbc:Description>
+            <cbc:Name>DESTINATION: UNITED STATES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EX     H8K4M2P9L R DATE 27.07.2024 CUSTOMS. BUSTO ARSI</cbc:Description>
+            <cbc:Name>EX     H8K4M2P9L R DATE 27.07.2024 CUSTOMS. BUSTO ARSI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>MRN: 24ITQRF7XYZ98765B2</cbc:Description>
+            <cbc:Name>MRN: 24ITQRF7XYZ98765B2</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            17.13
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Customs clearance documents</cbc:Description>
+            <cbc:Name>Customs clearance documents</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">17.13</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>9</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            8.57
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Entry permits</cbc:Description>
+            <cbc:Name>Entry permits</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">8.57</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>10</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            34.21
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Customs Duties</cbc:Description>
+            <cbc:Name>Customs Duties</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">34.21</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>11</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            5.14
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Fixed fee</cbc:Description>
+            <cbc:Name>Fixed fee</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">5.14</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>12</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            4.97
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Additional fee</cbc:Description>
+            <cbc:Name>Additional fee</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">4.97</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>13</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            2.11
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Decree no.95 31/01/2017 issued by Port Authority</cbc:Description>
+            <cbc:Name>Decree no.95 31/01/2017 issued by Port Authority</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">2.11</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>14</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>remuneration for management services and</cbc:Description>
+            <cbc:Name>remuneration for management services and</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>15</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            0.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>E-port maintenance</cbc:Description>
+            <cbc:Name>E-port maintenance</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">0.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>16</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            20.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Port Gate In Fee</cbc:Description>
+            <cbc:Name>Port Gate In Fee</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">20.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

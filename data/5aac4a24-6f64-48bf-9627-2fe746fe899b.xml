@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>4Kop18lGGxfi</cbc:ID>
+    <cbc:IssueDate>2023-08-16</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Serie:X - Folio:9876543210 - k92mnh4b-d159-789a-def3-45678901wxyz - Sello:Xh7Kp9MvNqRt3sWy2uA4zB8cE5fG6iJkLmN1oP2qR4sT5uV6wX7yZ8aB9cD0eF/Gh3Ij4Kl5Mn6No7Pq8Rs9tU0vW1xY2zA3bC4dE5fF6gH7iJ8kL9mN0oP1qQ2rS3tU4vW5xY6zA7bB8cD9eE0fG1hI2jK3lM4nO5pP6qQ7rS8tU9vW0xX1yY2zA3bB4cD5eF6gH7iJ8kL9mN0oP1qQ2rS3tU4vW5xY6zA7bB8cD9eE0fG1hI2jK3lM4nO5pP6qQ7== - noCertificado:00001000000900040526 - certificado:[CERTIFICATE DATA PSEUDONYMIZED] - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Maritime Services Inc</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Logistics Solutions</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Serie:X - Folio:9876543210 - k92mnh4b-d159-789a-def3-45678901wxyz - Sello:Xh7Kp9MvNqRt3sWy2uA4zB8cE5fG6iJkLmN1oP2qR4sT5uV6wX7yZ8aB9cD0eF/Gh3Ij4Kl5Mn6No7Pq8Rs9tU0vW1xY2zA3bC4dE5fF6gH7iJ8kL9mN0oP1qQ2rS3tU4vW5xY6zA7bB8cD9eE0fG1hI2jK3lM4nO5pP6qQ7rS8tU9vW0xX1yY2zA3bB4cD5eF6gH7iJ8kL9mN0oP1qQ2rS3tU4vW5xY6zA7bB8cD9eE0fG1hI2jK3lM4nO5pP6qQ7== - noCertificado:00001000000900040526 - certificado:[CERTIFICATE DATA PSEUDONYMIZED] - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            602.36
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            96.38
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            698.73
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            698.73
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            45.58
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (LAV. XRN7891234 INTL5432109</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (LAV. XRN7891234 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">45.58</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            45.58
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (LAV. YKM4567890 INTL5432109</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (LAV. YKM4567890 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">45.58</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            45.58
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (LAV. ZWP1234567 INTL5432109</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (LAV. ZWP1234567 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">45.58</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            45.58
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (LAV. VQT8901234 INTL5432109</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (LAV. VQT8901234 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">45.58</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            45.58
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Basic Container Cleaning (LAV. UHS5678901 INTL5432109</cbc:Description>
+            <cbc:Name>Basic Container Cleaning (LAV. UHS5678901 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">45.58</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            113.96
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Release Fee N INTL5432109</cbc:Description>
+            <cbc:Name>Release Fee N INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">113.96</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            19.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Intermodal Tracking Fee XRN7891234 INTL5432109</cbc:Description>
+            <cbc:Name>Intermodal Tracking Fee XRN7891234 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">19.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            19.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Intermodal Tracking Fee YKM4567890 INTL5432109</cbc:Description>
+            <cbc:Name>Intermodal Tracking Fee YKM4567890 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">19.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>9</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            19.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Intermodal Tracking Fee ZWP1234567 INTL5432109</cbc:Description>
+            <cbc:Name>Intermodal Tracking Fee ZWP1234567 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">19.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>10</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            19.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Intermodal Tracking Fee VQT8901234 INTL5432109</cbc:Description>
+            <cbc:Name>Intermodal Tracking Fee VQT8901234 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">19.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>11</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            19.54
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Intermodal Tracking Fee UHS5678901 INTL5432109</cbc:Description>
+            <cbc:Name>Intermodal Tracking Fee UHS5678901 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">19.54</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>12</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            32.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee XRN7891234 INTL5432109</cbc:Description>
+            <cbc:Name>Container Protection Fee XRN7891234 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">32.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>13</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            32.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee YKM4567890 INTL5432109</cbc:Description>
+            <cbc:Name>Container Protection Fee YKM4567890 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">32.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>14</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            32.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee ZWP1234567 INTL5432109</cbc:Description>
+            <cbc:Name>Container Protection Fee ZWP1234567 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">32.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>15</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            32.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee VQT8901234 INTL5432109</cbc:Description>
+            <cbc:Name>Container Protection Fee VQT8901234 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">32.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>16</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            32.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee UHS5678901 INTL5432109</cbc:Description>
+            <cbc:Name>Container Protection Fee UHS5678901 INTL5432109</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">32.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

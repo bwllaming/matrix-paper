@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>jhBsDcSJELvjj3Efc</cbc:ID>
+    <cbc:IssueDate>2024-02-26</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Due Date: 2024-08-31
+Payment amount: 108.68
+Payment Code: BANK TRANSFER 30 DAYS EOM
+Document Type: TD01SERVICE INVOICES</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor View Street 45</cbc:StreetName>
+                <cbc:CityName>Ancona</cbc:CityName>
+                <cbc:PostalZone>60121</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Freight Services Corp.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Shipping Avenue 92</cbc:StreetName>
+                <cbc:CityName>Livorno</cbc:CityName>
+                <cbc:PostalZone>57126</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Due Date: 2024-08-31
+Payment amount: 108.68
+Payment Code: BANK TRANSFER 30 DAYS EOM
+Document Type: TD01SERVICE INVOICES</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            121.34
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            11.86
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            133.2
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            133.2
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>FIXED IMPORT FEE - BL XKR7845129 - YOUR REF. 7391462085</cbc:Description>
+            <cbc:Name>FIXED IMPORT FEE - BL XKR7845129 - YOUR REF. 7391462085</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            26.96
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>LI/LO XKTU8392647 YNKU4726153</cbc:Description>
+            <cbc:Name>LI/LO XKTU8392647 YNKU4726153</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">26.96</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>FIXED IMPORT FEE - BL XKR7845238 YOUR REF. 7391462094</cbc:Description>
+            <cbc:Name>FIXED IMPORT FEE - BL XKR7845238 YOUR REF. 7391462094</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>LI/LO YNKU4726154</cbc:Description>
+            <cbc:Name>LI/LO YNKU4726154</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>FIXED IMPORT FEE - BL XKR7845347 - YOUR REF. 7391462106</cbc:Description>
+            <cbc:Name>FIXED IMPORT FEE - BL XKR7845347 - YOUR REF. 7391462106</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>LI/LO XKTU8392648</cbc:Description>
+            <cbc:Name>LI/LO XKTU8392648</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>FIXED IMPORT FEE - BL XKR7845456 - YOUR REF. 7391462115</cbc:Description>
+            <cbc:Name>FIXED IMPORT FEE - BL XKR7845456 - YOUR REF. 7391462115</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            13.48
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>LI/LO XKTU8392649</cbc:Description>
+            <cbc:Name>LI/LO XKTU8392649</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">13.48</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

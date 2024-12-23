@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>JSeYLWiCRmIv</cbc:ID>
+    <cbc:IssueDate>2025-06-08</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Serie:N - Folio:9876543210 - xk92731b-f45d-88p9-4c38-7b1defgh5432 - Sello:Xy7Kp9Qw2Mn4Vb8Hs6Jd0Lf3Ag5Rt1Uy9Oi4Pl2Nm7Bv6Cx8Zk4Jh2Gf9Ds3Qa5We8Rt0Yn6Im4Ux7Pl2Kj9Nh5Bv3Mq8Zw4Ct6Yx1Oi7Ag4Df2Sh9Jk5Lm3Np8Qw6Rt0Bv4Xy7Hs2Mn9Pl5Kj1Uy4Zk8Cx3Gf7We2Qa9Im6Yx4Oi1Df8Sh5Jk2Lm9Np3Qw7Rt4Bv1Xy8Hs5Mn2Pl6Kj4Uy1Zk9Cx7Gf3We8Qa2Im9Yx1Oi4Df5Sh8Jk3Lm6Np9Qw4Rt1Bv7Xy5Hs8Mn3Pl9Kj2Uy6Zk1Cx4Gf8We5Qa3Im2Yx7Oi9Df2Sh4Jk8Lm3Np6Qw1Rt7Bv4Xy2Hs5Mn9Pl3Kj6Uy8Zk4Cx1Gf7We2Qa9Im5Yx3Oi6Df8Sh1Jk4Lm7Np2Qw9Rt5Bv3Xy6Hs8Mn4Pl1Kj7Uy2Zk9Cx5Gf3We8Qa4Im1Yx7Oi2Df5Sh9Jk3Lm6Np8Qw4Rt1Bv7Xy5Hs2Mn9Pl6Kj3Uy8Zk4Cx1Gf7We5Qa2Im9Yx3Oi6Df8Sh4Jk1Lm7Np2Qw9Rt5Bv3Xy6Hs8Mn4Pl1Kj7Uy2Zk9Cx5Gf3We8Qa4Im1Yx7Oi2Df5Sh9Jk3Lm6Np8Qw4== - noCertificado:00001000000900040629 - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>OCEANIC SHIPPING SOLUTIONS MEXICO</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS PARTNERS</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Serie:N - Folio:9876543210 - xk92731b-f45d-88p9-4c38-7b1defgh5432 - Sello:Xy7Kp9Qw2Mn4Vb8Hs6Jd0Lf3Ag5Rt1Uy9Oi4Pl2Nm7Bv6Cx8Zk4Jh2Gf9Ds3Qa5We8Rt0Yn6Im4Ux7Pl2Kj9Nh5Bv3Mq8Zw4Ct6Yx1Oi7Ag4Df2Sh9Jk5Lm3Np8Qw6Rt0Bv4Xy7Hs2Mn9Pl5Kj1Uy4Zk8Cx3Gf7We2Qa9Im6Yx4Oi1Df8Sh5Jk2Lm9Np3Qw7Rt4Bv1Xy8Hs5Mn2Pl6Kj4Uy1Zk9Cx7Gf3We8Qa2Im9Yx1Oi4Df5Sh8Jk3Lm6Np9Qw4Rt1Bv7Xy5Hs8Mn3Pl9Kj2Uy6Zk1Cx4Gf8We5Qa3Im2Yx7Oi9Df2Sh4Jk8Lm3Np6Qw1Rt7Bv4Xy2Hs5Mn9Pl3Kj6Uy8Zk4Cx1Gf7We2Qa9Im5Yx3Oi6Df8Sh1Jk4Lm7Np2Qw9Rt5Bv3Xy6Hs8Mn4Pl1Kj7Uy2Zk9Cx5Gf3We8Qa4Im1Yx7Oi2Df5Sh9Jk3Lm6Np8Qw4Rt1Bv7Xy5Hs2Mn9Pl6Kj3Uy8Zk4Cx1Gf7We5Qa2Im9Yx3Oi6Df8Sh4Jk1Lm7Np2Qw9Rt5Bv3Xy6Hs8Mn4Pl1Kj7Uy2Zk9Cx5Gf3We8Qa4Im1Yx7Oi2Df5Sh9Jk3Lm6Np8Qw4== - noCertificado:00001000000900040629 - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            204.17
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            32.67
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            236.83
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            236.83
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            41.42
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>BASIC CONTAINER CLEANING (WASH. XRTU7463921 NSCU9374615</cbc:Description>
+            <cbc:Name>BASIC CONTAINER CLEANING (WASH. XRTU7463921 NSCU9374615</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">41.42</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            103.56
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>RELEASE FEE N NSCU9374615</cbc:Description>
+            <cbc:Name>RELEASE FEE N NSCU9374615</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">103.56</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            29.59
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>MERCHANT HAULAGE ADMIN FEE XRTU7463921 NSCU9374615</cbc:Description>
+            <cbc:Name>MERCHANT HAULAGE ADMIN FEE XRTU7463921 NSCU9374615</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">29.59</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            29.59
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Maintenance Repair Fee XRTU7463921 NSCU9374615</cbc:Description>
+            <cbc:Name>Container Maintenance Repair Fee XRTU7463921 NSCU9374615</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">29.59</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

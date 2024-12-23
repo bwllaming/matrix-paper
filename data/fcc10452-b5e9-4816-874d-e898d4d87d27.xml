@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>0CDt4nFiG2eVw7wC</cbc:ID>
+    <cbc:IssueDate>2025-02-08</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALES
+ESKISEHIR    EUROPEN            XRT789456                KLM987654
+SERVICE HAS BEEN PERFORMED BY SUBCONTRACTORS AND WE HAVE BEEN ISSUED A WITHHOLDING TAX INVOICE...
+Due Date: 14.09.2024
+IN WORDS: FourteenThousandSevenHundredSixty . TL</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>CROWN BROTHERS TRANSPORT SERVICES CONSTRUCTION IND. AND TRADE LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>BURSA</cbc:CityName>
+                <cbc:PostalZone>16335</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS TRANSPORT LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>INDUSTRIAL ZONE CENTRAL DISTRICT 17TH STREET NO:2</cbc:StreetName>
+                <cbc:CityName>ISTANBUL</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALES
+ESKISEHIR    EUROPEN            XRT789456                KLM987654
+SERVICE HAS BEEN PERFORMED BY SUBCONTRACTORS AND WE HAVE BEEN ISSUED A WITHHOLDING TAX INVOICE...
+Due Date: 14.09.2024
+IN WORDS: FourteenThousandSevenHundredSixty . TL</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            15359.46
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            3071.89
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            18431.35
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            18431.35
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            15359.46
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TRANSPORTATION FEE GEMLIK ESKISEHIR KLM987654</cbc:Description>
+            <cbc:Name>TRANSPORTATION FEE GEMLIK ESKISEHIR KLM987654</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">15359.46</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

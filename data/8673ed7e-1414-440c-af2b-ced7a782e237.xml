@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>uvirTCssxo</cbc:ID>
+    <cbc:IssueDate>2025-02-03</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Beneficiary: ATLANTIC LOGISTICS SERVICES LTD.
+Payment Mode: MP05
+Payment Due Date: 2024-09-14
+Payment amount: 148.00
+Bank: Global Trust Bank
+IBAN: IT78K9514003267000087654321
+BIC: GTBKIT2PXXX
+
+Document Type: TD01
+ns. rif. ag. ATLANTIC LOGISTICS SERVICES LTD.
+ns. rif. sede Brighton
+ns. rif. usr. Sarah Thompson
+Vessel/Voyage ATLANTIC VOYAGER III XY875B
+Port Date BRIGHTON 03/08/2024</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>ATLANTIC LOGISTICS SERVICES LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor View 12</cbc:StreetName>
+                <cbc:CityName>Brighton</cbc:CityName>
+                <cbc:PostalZone>BN1 4RT</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL FREIGHT SOLUTIONS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Commerce House 25</cbc:StreetName>
+                <cbc:CityName>Manchester</cbc:CityName>
+                <cbc:PostalZone>M1 5WP</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Beneficiary: ATLANTIC LOGISTICS SERVICES LTD.
+Payment Mode: MP05
+Payment Due Date: 2024-09-14
+Payment amount: 148.00
+Bank: Global Trust Bank
+IBAN: IT78K9514003267000087654321
+BIC: GTBKIT2PXXX
+
+Document Type: TD01
+ns. rif. ag. ATLANTIC LOGISTICS SERVICES LTD.
+ns. rif. sede Brighton
+ns. rif. usr. Sarah Thompson
+Vessel/Voyage ATLANTIC VOYAGER III XY875B
+Port Date BRIGHTON 03/08/2024</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            118.73
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            118.73
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            118.73
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            14.44
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>ISPS FEES IMPORT N9 ATLFS789012 ATLU7654321 DOVER</cbc:Description>
+            <cbc:Name>ISPS FEES IMPORT N9 ATLFS789012 ATLU7654321 DOVER</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">14.44</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            24.07
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INSPECTION FEE - INSPECTION IMP N9 ATLFS789012 ATLU7654321 DOVER</cbc:Description>
+            <cbc:Name>INSPECTION FEE - INSPECTION IMP N9 ATLFS789012 ATLU7654321 DOVER</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">24.07</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            24.07
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INSPECTION FEE - INSPECTION IMP N9 ATLFS789012 FTCU8765432 DOVER</cbc:Description>
+            <cbc:Name>INSPECTION FEE - INSPECTION IMP N9 ATLFS789012 FTCU8765432 DOVER</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">24.07</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            40.11
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>BL FEES-DOCUMENTATION IMP N9 ATLFS789012 DOVER</cbc:Description>
+            <cbc:Name>BL FEES-DOCUMENTATION IMP N9 ATLFS789012 DOVER</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">40.11</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            14.44
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>ISPS FEES IMPORT N9 ATLFS789012 FTCU8765432 DOVER</cbc:Description>
+            <cbc:Name>ISPS FEES IMPORT N9 ATLFS789012 FTCU8765432 DOVER</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">14.44</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1.6
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Imposta di bollo assolta in modo virtuale ai sensi dell'articolo 15 del DPR  642/1972 e del DM 17/06/2014 come modificato dal DM del 28 Dicembre 2018</cbc:Description>
+            <cbc:Name>Imposta di bollo assolta in modo virtuale ai sensi dell'articolo 15 del DPR  642/1972 e del DM 17/06/2014 come modificato dal DM del 28 Dicembre 2018</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1.6</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

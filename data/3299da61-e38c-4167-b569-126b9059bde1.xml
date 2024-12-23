@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>nkFPb4n17Ystmnu1</cbc:ID>
+    <cbc:IssueDate>2025-03-23</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+HADIMKOY APPLE 847 5623 9874 124563
+According to law, no deduction is applied when not self-owned
+This invoice must be paid by: 01/08/24
+PLEASE INDICATE THE VEHICLE PLATE NUMBER AND INVOICE NUMBER IN THE DESCRIPTION OF YOUR BANK TRANSFER RECEIPT
+For invoices not paid by due date, late payment interest will be charged according to the Law on Collection Procedure of Public Receivables (AATUHK).
+Only FourThousandThirtyTwoTL</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>S.S 350 COOPERATIVE LOGISTICS SERVICES MOTOR CARRIERS ASSOCIATION</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Cargo Terminal Cooperative Service</cbc:StreetName>
+                <cbc:CityName>Springfield</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL FREIGHT SOLUTIONS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>INDUSTRIAL DISTRICT SPRINGFIELD</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+HADIMKOY APPLE 847 5623 9874 124563
+According to law, no deduction is applied when not self-owned
+This invoice must be paid by: 01/08/24
+PLEASE INDICATE THE VEHICLE PLATE NUMBER AND INVOICE NUMBER IN THE DESCRIPTION OF YOUR BANK TRANSFER RECEIPT
+For invoices not paid by due date, late payment interest will be charged according to the Law on Collection Procedure of Public Receivables (AATUHK).
+Only FourThousandThirtyTwoTL</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            2060.93
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            412.19
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            2473.12
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            2473.12
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            2060.93
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TNA-WESTPORT transport fee-78XYZ456</cbc:Description>
+            <cbc:Name>TNA-WESTPORT transport fee-78XYZ456</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">2060.93</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>xxLQEt85jlwH</cbc:ID>
+    <cbc:IssueDate>2023-09-13</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Serie:N - Folio:9876543210 - x721yz89-a4ef-32c1-def5-b12c34d56e78 - Sello:Kw9nP3mR8vX2qL5tB7hJ4fD0cA6uY1iO9pE3xN8mQ2wS4vF7gH5jK9nL2pR4tY6uI8oP1aD3fG5hJ7kL0mN4qW8eX2cV6bN9mM1pO3sQ5dF7gH9jK2lN4pR6tY8uI1oP3aD5fG7hJ9kL2mN4qW6eX8cV0bN3mM5pO7sQ9dF1gH3jK4lN6pR8tY0uI3oP5aD7fG9hJ1kL4mN6qW8eX0cV2bN5mM7pO9sQ1dF3gH5jK6lN8pR0tY2uI5oP7aD9fG1hJ3kL6mN8qW0eX2cV4bN7mM9pO1sQ3dF5gH7jK8lN0pR2tY4uI7oP9aD1fG3hJ5kL8mN0qW2eX4cV6bN9mM1pO3sQ5dF7gH9jK0lN2pR4tY6uI8== - noCertificado:00001000000900020615 - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL SHIPPING SOLUTIONS MEXICO</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>WORLDWIDE LOGISTICS SERVICES</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>MX</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Serie:N - Folio:9876543210 - x721yz89-a4ef-32c1-def5-b12c34d56e78 - Sello:Kw9nP3mR8vX2qL5tB7hJ4fD0cA6uY1iO9pE3xN8mQ2wS4vF7gH5jK9nL2pR4tY6uI8oP1aD3fG5hJ7kL0mN4qW8eX2cV6bN9mM1pO3sQ5dF7gH9jK2lN4pR6tY8uI1oP3aD5fG7hJ9kL2mN4qW6eX8cV0bN3mM5pO7sQ9dF1gH3jK4lN6pR8tY0uI3oP5aD7fG9hJ1kL4mN6qW8eX0cV2bN5mM7pO9sQ1dF3gH5jK6lN8pR0tY2uI5oP7aD9fG1hJ3kL6mN8qW0eX2cV4bN7mM9pO1sQ3dF5gH7jK8lN0pR2tY4uI7oP9aD1fG3hJ5kL8mN0qW2eX4cV6bN9mM1pO3sQ5dF7gH9jK0lN2pR4tY6uI8oP0aD2fG4hJ6kL9mN1qW3eX5cV7bN0mM2pO4sQ6dF8gH0jK1lN3pR5tY7uI9oP1aD3fG5hJ7kL0mN2qW4eX6cV8bN1mM3pO5sQ7dF9gH1jK2lN4pR6tY8uI0oP2aD4fG6hJ8kL1mN3qW5eX7cV9bN2mM4pO6sQ8dF0gH2jK3lN5pR7tY9uI1oP3aD5fG7hJ9kL2mN4qW6eX8cV0bN3mM5pO7sQ9dF1gH3jK4lN6pR8tY0uI2oP4aD6fG8hJ0kL3mN5qW7eX9cV1bN4mM6pO8sQ0dF2gH4jK5lN7pR9tY1uI3oP5aD7fG9hJ1kL4mN6qW8eX0cV2bN5mM7pO9sQ1dF3gH5jK6lN8pR0tY2uI4oP6aD8fG0hJ2kL5mN7qW9eX1cV3bN6mM8pO0sQ2dF4gH6jK7lN9pR1tY3uI5oP7aD9fG1hJ3kL6mN8qW0eX2cV4bN7mM9pO1sQ3dF5gH7jK8lN0pR2tY4uI6oP8aD0fG2hJ4kL7mN9qW1eX3cV5bN8mM0pO2sQ4dF6gH8jK9lN1pR3tY5uI7oP9aD1fG3hJ5kL8mN0qW2eX4cV6bN9mM1pO3sQ5dF7gH9jK0lN2pR4tY6uI8oP0aD2fG4hJ6kL9mN1qW3eX5cV7bN0mM2pO4sQ6dF8gH0jK1lN3pR5tY7uI9oP1aD3fG5hJ7kL0mN2qW4eX6cV8bN1mM3pO5sQ7dF9gH1jK2lN4pR6tY8uI0oP2aD4fG6hJ8kL1mN3qW5eX7cV9bN2mM4pO6sQ8dF0gH2jK3lN5pR7tY9uI1oP3aD5fG7hJ9kL2mN4qW6eX8cV0bN3mM5pO7sQ9dF1gH3jK4lN6pR8tY0uI2oP4aD6fG8hJ0kL3mN5qW7eX9cV1bN4mM6pO8sQ0dF2gH4jK5lN7pR9tY1uI3oP5aD7fG9hJ1kL4mN6qW8eX0cV2bN5mM7pO9sQ1dF3gH5jK6lN8pR0tY2uI4oP6aD8fG0hJ2kL5mN7qW9eX1cV3bN6mM8pO0sQ2dF4gH6jK7lN9pR1tY3uI5oP7aD9fG1hJ3kL6mN8qW0eX2cV4bN7mM9pO1sQ3dF5gH7jK8lN0pR2tY4uI6oP8aD0fG2hJ4kL7mN9qW1eX3cV5bN8mM0pO2sQ4dF6gH8jK9lN1pR3tY5uI7oP9aD1fG3hJ5kL8mN0qW2eX4cV6bN9mM1pO3sQ5dF7gH9jK0lN2pR4tY6uI8== - noCertificado:00001000000900020615 - RegimenFiscal: 601 - UsoCFDI: G03</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            45.86
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            7.34
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            53.2
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            53.2
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            15.29
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee XRTU7891234 OCGL9876543</cbc:Description>
+            <cbc:Name>Container Protection Fee XRTU7891234 OCGL9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">15.29</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            15.29
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee YPWQ4567890 OCGL9876543</cbc:Description>
+            <cbc:Name>Container Protection Fee YPWQ4567890 OCGL9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">15.29</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            15.29
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Protection Fee ZKHJ1234567 OCGL9876543</cbc:Description>
+            <cbc:Name>Container Protection Fee ZKHJ1234567 OCGL9876543</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">15.29</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>kfcGzmmZfuqqh0i8</cbc:ID>
+    <cbc:IssueDate>2025-05-05</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+FORD 789 4321 9876 PENDING
+No withholding tax applies when not self-owned according to law
+This invoice must be paid by: 01/08/24
+PLEASE INDICATE THE VEHICLE PLATE NUMBER AND INVOICE NUMBER IN THE DESCRIPTION OF YOUR BANK TRANSFER RECEIPT
+For invoices not paid by due date, late payment interest will be charged according to the Law on Collection Procedure of Public Receivables (AATUHK).
+Only SevenThousandEightHundredSeventyEightTL</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>S.S 350 GREENPORT AIRPORT CARGO TERMINAL LOG.SERV.MOTOR CARRIERS COOP.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Cargo Terminal Cooperative Service</cbc:StreetName>
+                <cbc:CityName>London</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL FREIGHT SOLUTIONS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>INDUSTRIAL DISTRICT LONDON</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+FORD 789 4321 9876 PENDING
+No withholding tax applies when not self-owned according to law
+This invoice must be paid by: 01/08/24
+PLEASE INDICATE THE VEHICLE PLATE NUMBER AND INVOICE NUMBER IN THE DESCRIPTION OF YOUR BANK TRANSFER RECEIPT
+For invoices not paid by due date, late payment interest will be charged according to the Law on Collection Procedure of Public Receivables (AATUHK).
+Only SevenThousandEightHundredSeventyEightTL</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            4349.23
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            869.85
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            5219.08
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            5219.08
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            4349.23
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TNA-HILLSIDE transportation fee-47XYZ891</cbc:Description>
+            <cbc:Name>TNA-HILLSIDE transportation fee-47XYZ891</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">4349.23</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

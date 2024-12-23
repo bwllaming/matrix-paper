@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>RIaDibNt801RI9q3</cbc:ID>
+    <cbc:IssueDate>2024-06-27</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>WITHHOLDING
+MSMU987654-3;
+OCEANSIDE FOUNDRY
+TN:9847563210
+According to VAT Law No. 3065; 2/10 withholding tax has been applied to transportation with owned vehicles
+X:C0.00 TL
+X:D0.00 TL
+X:E0.00 TL</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>HORIZON TRANSPORT &amp; LOGISTICS SERVICES INC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>PACIFIC AVENUE NO:159 FLOOR:2 SUITE:3 HARBORVIEW</cbc:StreetName>
+                <cbc:CityName>NEWPORT</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL FREIGHT SOLUTIONS LTD</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>MARINA BOULEVARD NO 74 COMMERCE CENTER BLOCK A FLOOR 4</cbc:StreetName>
+                <cbc:CityName>NEWPORT</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>WITHHOLDING
+MSMU987654-3;
+OCEANSIDE FOUNDRY
+TN:9847563210
+According to VAT Law No. 3065; 2/10 withholding tax has been applied to transportation with owned vehicles
+X:C0.00 TL
+X:D0.00 TL
+X:E0.00 TL</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            11761.17
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            1881.79
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            13642.96
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            13642.96
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            11761.17
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TRANSPORTATION SERVICE FEE</cbc:Description>
+            <cbc:Name>TRANSPORTATION SERVICE FEE</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">11761.17</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>Jm2Xq2wv9Q</cbc:ID>
+    <cbc:IssueDate>2024-04-19</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Beneficiary: Global Logistics Services Ltd
+Payment Mode: MP05
+Payment Due Date: 2024-09-17
+Payment amount: 192.00
+Bank: NATIONAL COMMERCE BANK
+IBAN: GB29NWBK60161331926819
+BIC: NWBKGB2L
+
+Document Type: TD01
+ref. ag. GLOBAL LOGISTICS SERVICES LTD
+ref. loc. Brighton
+ref. usr. James Anderson
+Vessel/Voyage OCEAN VOYAGER II KX738M
+Vessel Data BRIGHTON PORT OF DOVER 22/07/2024</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Services Ltd</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor View 45</cbc:StreetName>
+                <cbc:CityName>Brighton</cbc:CityName>
+                <cbc:PostalZone>BN1 4RT</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Freight Solutions PLC</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Commerce House 78</cbc:StreetName>
+                <cbc:CityName>London</cbc:CityName>
+                <cbc:PostalZone>EC1A 1BB</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Beneficiary: Global Logistics Services Ltd
+Payment Mode: MP05
+Payment Due Date: 2024-09-17
+Payment amount: 192.00
+Bank: NATIONAL COMMERCE BANK
+IBAN: GB29NWBK60161331926819
+BIC: NWBKGB2L
+
+Document Type: TD01
+ref. ag. GLOBAL LOGISTICS SERVICES LTD
+ref. loc. Brighton
+ref. usr. James Anderson
+Vessel/Voyage OCEAN VOYAGER II KX738M
+Vessel Data BRIGHTON PORT OF DOVER 22/07/2024</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            381.13
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            381.13
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            381.13
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            59.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INSPECTION FEE - INSPECTION IMP N9 XVKPT847162 TCNU7943911 SHANGHAI</cbc:Description>
+            <cbc:Name>INSPECTION FEE - INSPECTION IMP N9 XVKPT847162 TCNU7943911 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">59.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            3.97
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>STAMP DUTY PAID VIRTUALLY authorization of the Provincial Direction of Dover - Territorial Office of Dover dated 04/12/2018 no. 321982</cbc:Description>
+            <cbc:Name>STAMP DUTY PAID VIRTUALLY authorization of the Provincial Direction of Dover - Territorial Office of Dover dated 04/12/2018 no. 321982</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">3.97</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            99.25
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>BL FEES-DOCUMENTATION IMP N9 XVKPT847162 SHANGHAI</cbc:Description>
+            <cbc:Name>BL FEES-DOCUMENTATION IMP N9 XVKPT847162 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">99.25</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            35.73
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>ISPS FEES IMPORT N9 XVKPT847162 TCNU7943911 SHANGHAI</cbc:Description>
+            <cbc:Name>ISPS FEES IMPORT N9 XVKPT847162 TCNU7943911 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">35.73</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            35.73
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>ISPS FEES IMPORT N9 XVKPT847162 MSMU5824386 SHANGHAI</cbc:Description>
+            <cbc:Name>ISPS FEES IMPORT N9 XVKPT847162 MSMU5824386 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">35.73</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            59.55
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INSPECTION FEE - INSPECTION IMP N9 XVKPT847162 MSMU5824386 SHANGHAI</cbc:Description>
+            <cbc:Name>INSPECTION FEE - INSPECTION IMP N9 XVKPT847162 MSMU5824386 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">59.55</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            43.67
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>SEAL-CHECK / CHECKING-SEAL XVKPT847162 TCNU7943911 SHANGHAI</cbc:Description>
+            <cbc:Name>SEAL-CHECK / CHECKING-SEAL XVKPT847162 TCNU7943911 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">43.67</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            43.67
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>SEAL-CHECK / CHECKING-SEAL XVKPT847162 MSMU5824386 SHANGHAI</cbc:Description>
+            <cbc:Name>SEAL-CHECK / CHECKING-SEAL XVKPT847162 MSMU5824386 SHANGHAI</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">43.67</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

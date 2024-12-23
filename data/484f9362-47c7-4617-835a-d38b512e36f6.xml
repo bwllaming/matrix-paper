@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>bd5uLHxJAT3wmNfW</cbc:ID>
+    <cbc:IssueDate>2024-07-18</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>EXEMPTION
+NOTE: ONLY: FOUR THOUSAND THREE HUNDRED SIXTY-EIGHT USD AND ZERO CENTS
+UPR:Reference No:XK9371264853
+NOTE:ETA:01-09-2024
+NOTE:ETD:09-08-2024
+NOTE:PCD:09-08-2024
+NOTE:1. Issued without VAT according to Article 14/1 of Law No. 3065
+UPL: Bill of Lading No: 987654321
+UPL:Note: 7391526480
+UPR:Invoice Date:09.08.2024
+UPR:Customer No:9874563210
+UPR:Invoice Due:30 Days Term
+UPR:Payment Date(Note 4):08.09.2024
+NOTE:Loading Port: Iskenderun
+NOTE:Discharge Port: Banjul
+NOTE:Service Port: Banjul
+NOTE:Vessel Name: STELLA / 789X
+NOTE:SNO: 1
+NOTE:Container No: XRTU7391264
+NOTE:SNO: 2
+NOTE:Container No: YNSU8462951
+NOTE:Container Type: 40 / 9,6 / DRY
+NOTE:Service Type: CY-CY</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>OceanCargo Global Ltd</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Maritime Tower, 123 Harbor Street</cbc:StreetName>
+                <cbc:CityName>Copenhagen</cbc:CityName>
+                <cbc:PostalZone>DK1263</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Partners Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>456 Transport Avenue</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>34490</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>EXEMPTION
+NOTE: ONLY: FOUR THOUSAND THREE HUNDRED SIXTY-EIGHT USD AND ZERO CENTS
+UPR:Reference No:XK9371264853
+NOTE:ETA:01-09-2024
+NOTE:ETD:09-08-2024
+NOTE:PCD:09-08-2024
+NOTE:1. Issued without VAT according to Article 14/1 of Law No. 3065
+UPL: Bill of Lading No: 987654321
+UPL:Note: 7391526480
+UPR:Invoice Date:09.08.2024
+UPR:Customer No:9874563210
+UPR:Invoice Due:30 Days Term
+UPR:Payment Date(Note 4):08.09.2024
+NOTE:Loading Port: Iskenderun
+NOTE:Discharge Port: Banjul
+NOTE:Service Port: Banjul
+NOTE:Vessel Name: STELLA / 789X
+NOTE:SNO: 1
+NOTE:Container No: XRTU7391264
+NOTE:SNO: 2
+NOTE:Container No: YNSU8462951
+NOTE:Container Type: 40 / 9,6 / DRY
+NOTE:Service Type: CY-CY</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            4992.17
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            4992.17
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            4992.17
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">2.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            4306.43
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Ocean Freight</cbc:Description>
+            <cbc:Name>Ocean Freight</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">2153.22</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">2.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            685.74
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Peak Season Charge</cbc:Description>
+            <cbc:Name>Peak Season Charge</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">342.87</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

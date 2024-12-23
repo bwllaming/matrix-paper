@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>x5zw7bIvAF</cbc:ID>
+    <cbc:IssueDate>2024-06-15</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Beneficiary: Global Maritime Solutions Ltd.
+Payment Mode: MP05
+Payment Due Date: 2024-09-15
+Payment amount: 1451.00
+Bank: Northern Ocean Bank
+IBAN: GB82NWBK74583921456789
+BIC: NWBKGB2LXXX
+
+Document Type: TD01
+Agency ref: Global Maritime Solutions Ltd.
+Location ref: Liverpool
+User ref: John Smith
+Vessel/Voyage: MV OCEANIC VY325A
+Vessel Date: PLYMOUTH 02/08/2024</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Maritime Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Ocean Drive 123</cbc:StreetName>
+                <cbc:CityName>Liverpool</cbc:CityName>
+                <cbc:PostalZone>L1 8XY</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Atlantic Shipping Corporation</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor Street 456</cbc:StreetName>
+                <cbc:CityName>Los Angeles</cbc:CityName>
+                <cbc:PostalZone>90001</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Beneficiary: Global Maritime Solutions Ltd.
+Payment Mode: MP05
+Payment Due Date: 2024-09-15
+Payment amount: 1451.00
+Bank: Northern Ocean Bank
+IBAN: GB82NWBK74583921456789
+BIC: NWBKGB2LXXX</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            49.21
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            49.21
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            49.21
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            49.21
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>BL FEES-CARGO DOCUMENTATION EXP N9 GMSL8374625 LIVERPOOL (Freight forwarder reference #7392846501)</cbc:Description>
+            <cbc:Name>BL FEES-CARGO DOCUMENTATION EXP N9 GMSL8374625 LIVERPOOL (Freight forwarder reference #7392846501)</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">49.21</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>biT54gTRKeRdpsFp</cbc:ID>
+    <cbc:IssueDate>2025-07-15</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Service provided by subcontractors.
+Order Ref: XR7391455,XR7391623,ML XR 7391788,ML XR 7391122,ML XR 7391123,ML XR 7391245,XR7391367,ML XR7391489,ML XR 7391368,ML XR 7391368,ML XR7391368,ML XR7391368
+Due Date: 29/09/2024, 60 DAYS Payment Term</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Road Transport Cooperative</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>WorldWide Logistics Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Enterprise Boulevard, Technology Park</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>34490</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Service provided by subcontractors.
+Order Ref: XR7391455,XR7391623,ML XR 7391788,ML XR 7391122,ML XR 7391123,ML XR 7391245,XR7391367,ML XR7391489,ML XR 7391368,ML XR 7391368,ML XR7391368,ML XR7391368
+Due Date: 29/09/2024, 60 DAYS Payment Term</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            206573.1
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            41314.62
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            247887.72
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            247887.72
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 29/07 BX724891 47KL8823 Global Bursa HC 40 NXKU8276543 XR7391455</cbc:Description>
+            <cbc:Name>Export Gemlik 29/07 BX724891 47KL8823 Global Bursa HC 40 NXKU8276543 XR7391455</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724892 47KL8824 Global Bursa HC 40 NXKU8276544 XR7391623</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724892 47KL8824 Global Bursa HC 40 NXKU8276544 XR7391623</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724893 47KL8825 Global Bursa HC 40 NXKU8276545 ML XR 7391788</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724893 47KL8825 Global Bursa HC 40 NXKU8276545 ML XR 7391788</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724894 47KL8826 Global Bursa HC 40 NXKU8276546</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724894 47KL8826 Global Bursa HC 40 NXKU8276546</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724895 47KL8827 Global Bursa HC 40 NXKU8276547</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724895 47KL8827 Global Bursa HC 40 NXKU8276547</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724896 47KL8828 Global Bursa HC 40 NXKU8276548 ML XR 7391122</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724896 47KL8828 Global Bursa HC 40 NXKU8276548 ML XR 7391122</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724897 47KL8829 Global Bursa HC 40 NXKU8276549 ML XR 7391123</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724897 47KL8829 Global Bursa HC 40 NXKU8276549 ML XR 7391123</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724898 47KL8830 Global Bursa HC 40 NXKU8276550 ML XR 7391245</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724898 47KL8830 Global Bursa HC 40 NXKU8276550 ML XR 7391245</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>9</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 30/07 BX724899 47KL8831 Global Bursa HC 40 NXKU8276551 XR7391367</cbc:Description>
+            <cbc:Name>Export Gemlik 30/07 BX724899 47KL8831 Global Bursa HC 40 NXKU8276551 XR7391367</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>10</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 31/07 BX724900 47KL8832 Global Bursa HC 40 NXKU8276552 ML XR7391489</cbc:Description>
+            <cbc:Name>Export Gemlik 31/07 BX724900 47KL8832 Global Bursa HC 40 NXKU8276552 ML XR7391489</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>11</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 31/07 BX724901 47KL8833 Global Bursa HC 40 NXKU8276553 ML XR 7391368</cbc:Description>
+            <cbc:Name>Export Gemlik 31/07 BX724901 47KL8833 Global Bursa HC 40 NXKU8276553 ML XR 7391368</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>12</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            1762.57
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 NXKU8276553 Import Waiting ML XR 7391368</cbc:Description>
+            <cbc:Name>HC 40 NXKU8276553 Import Waiting ML XR 7391368</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">1762.57</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>13</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            16920.66
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 31/07 BX724902 47KL8834 Global Bursa HC 40 NXKU8276554 ML XR7391368</cbc:Description>
+            <cbc:Name>Export Gemlik 31/07 BX724902 47KL8834 Global Bursa HC 40 NXKU8276554 ML XR7391368</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">16920.66</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>14</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            1762.57
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 NXKU8276554 Export Waiting ML XR7391368</cbc:Description>
+            <cbc:Name>HC 40 NXKU8276554 Export Waiting ML XR7391368</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">1762.57</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

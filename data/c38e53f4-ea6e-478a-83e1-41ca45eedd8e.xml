@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>fSx8t0Q</cbc:ID>
+    <cbc:IssueDate>2025-01-18</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02Payment Mode: MP05Payment Due Date: 2024-05-30Payment amount: 745.00Bank: GLOBALBANKIBAN: IT82R7400903561000087654321Document Type: TD01</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>OCEANLINE MARITIME SERVICES LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>TERMINAL WEST DOCK</cbc:StreetName>
+                <cbc:CityName>Amsterdam PORT</cbc:CityName>
+                <cbc:PostalZone>49929</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS SOLUTIONS SRL</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>VIA INDUSTRIA 78/B</cbc:StreetName>
+                <cbc:CityName>Barcelona</cbc:CityName>
+                <cbc:PostalZone>77776</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02Payment Mode: MP05Payment Due Date: 2024-05-30Payment amount: 745.00Bank: GLOBALBANKIBAN: IT82R7400903561000087654321Document Type: TD01</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1049.95
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            1049.95
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            1049.95
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1049.95
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>003628/EX24 -  TRANSPORT - 9847562130  - CNTR7845962 AMSTERDAM PORT - BARCELONA - AMSTERDAM PORT 1 x 20 BOX CNTR7845962 MSC VICTORIA - ABU DHABI BOOKING: 9875462130</cbc:Description>
+            <cbc:Name>003628/EX24 -  TRANSPORT - 9847562130  - CNTR7845962 AMSTERDAM PORT - BARCELONA - AMSTERDAM PORT 1 x 20 BOX CNTR7845962 MSC VICTORIA - ABU DHABI BOOKING: 9875462130</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1049.95</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

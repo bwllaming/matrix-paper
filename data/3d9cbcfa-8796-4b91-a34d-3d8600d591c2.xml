@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>qjkQo</cbc:ID>
+    <cbc:IssueDate>2025-06-20</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02 Payment Mode: MP05 Payment Terms Reference Date: 2025-03-15 Payment Due Date: 2025-03-20 Payment amount: 920.00  Payment Conditions: TP02 Payment Mode: MP05 Payment Terms Reference Date: 2025-03-15 Payment Due Date: 2025-03-20 Payment amount: 5.00  Document Type: TD01  PORT STORAGE IMPORT AS PER FOLLOWING DETAIL * * * M/V SERENADE Voy: 080N (008) on 15-04-2025 discharged on 16-04-2025 at Rotterdam B/L ZY87T94M36 from Shanghai to Rotterdam container number free time storage from storage to storage days amount OOLU 682054/0 40HQ 7 25-04-2025 10-05-2025 15 960.00  Det.days 4x30=120.00 days 12x50=600.00</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Maritime Logistics Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor View Plaza 41</cbc:StreetName>
+                <cbc:CityName>OSLO</cbc:CityName>
+                <cbc:PostalZone>29942</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Freight Solutions Corp.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Logistics Avenue 49/A</cbc:StreetName>
+                <cbc:CityName>OSLO</cbc:CityName>
+                <cbc:PostalZone>18883</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02 Payment Mode: MP05 Payment Terms Reference Date: 2025-03-15 Payment Due Date: 2025-03-20 Payment amount: 920.00  Payment Conditions: TP02 Payment Mode: MP05 Payment Terms Reference Date: 2025-03-15 Payment Due Date: 2025-03-20 Payment amount: 5.00  Document Type: TD01  PORT STORAGE IMPORT AS PER FOLLOWING DETAIL * * * M/V SERENADE Voy: 080N (008) on 15-04-2025 discharged on 16-04-2025 at Rotterdam B/L ZY87T94M36 from Shanghai to Rotterdam container number free time storage from storage to storage days amount OOLU 682054/0 40HQ 7 25-04-2025 10-05-2025 15 960.00  Det.days 4x30=120.00 days 12x50=600.00</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1647.71
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            1647.71
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            1647.71
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1643.8
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>ZY87T94M36</cbc:Description>
+            <cbc:Name>ZY87T94M36</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1643.8</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            3.91
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Revenue Stamp on Invoice</cbc:Description>
+            <cbc:Name>Revenue Stamp on Invoice</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">3.91</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

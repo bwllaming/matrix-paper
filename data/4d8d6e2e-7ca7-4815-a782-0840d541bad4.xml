@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>bnCvn</cbc:ID>
+    <cbc:IssueDate>2023-11-20</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Terms Reference Date: 2024-09-07
+Payment Due Date: 2024-09-07
+Payment amount: 40.00
+
+Document Type: TD01* * * PORT STORAGE IMPORT AS PER FOLLOWING DETAIL * * *M/V OCEAN VOYAGER Voy: 021E (0648-022E)  on 13-07-2024 discharged on  13-07-2024  at MilanoB/L RK94M7L52N from Xingang  to La Spezia   container number     free time    soste dal     soste al     gg sosta   importo OCNV 847392/1 40HQ  14 30-07-2024 31-07-2024 2 40,00    Det.gg 2x20=40.00</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Maritime Logistics Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor Business Center 123</cbc:StreetName>
+                <cbc:CityName>Genova</cbc:CityName>
+                <cbc:PostalZone>16126</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>TransGlobal Freight Services Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Logistics Park 789</cbc:StreetName>
+                <cbc:CityName>Milano</cbc:CityName>
+                <cbc:PostalZone>20138</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Terms Reference Date: 2024-09-07
+Payment Due Date: 2024-09-07
+Payment amount: 40.00
+
+Document Type: TD01* * * PORT STORAGE IMPORT AS PER FOLLOWING DETAIL * * *M/V OCEAN VOYAGER Voy: 021E (0648-022E)  on 13-07-2024 discharged on  13-07-2024  at MilanoB/L RK94M7L52N from Xingang  to La Spezia   container number     free time    soste dal     soste al     gg sosta   importo OCNV 847392/1 40HQ  14 30-07-2024 31-07-2024 2 40,00    Det.gg 2x20=40.00</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            23.25
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            23.25
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            23.25
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            23.25
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>RK94M7L52N</cbc:Description>
+            <cbc:Name>RK94M7L52N</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">23.25</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

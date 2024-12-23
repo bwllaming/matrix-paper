@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>u74suRVzc</cbc:ID>
+    <cbc:IssueDate>2024-05-17</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Terms Reference Date: 2024-08-01
+Payment Terms (Days): 60
+Payment amount: 1247.92
+Bank: Global Trust Bank
+IBAN: NL82R9475K2703L94726N391
+
+Document Type: TD01Your Ref. 7392846105</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Avenue, 12</cbc:StreetName>
+                <cbc:CityName>Milan</cbc:CityName>
+                <cbc:PostalZone>20121</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Swift Transport International S.R.L.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Commerce Street, 45</cbc:StreetName>
+                <cbc:CityName>Genoa</cbc:CityName>
+                <cbc:PostalZone>16128</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>IT</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>Payment Conditions: TP02
+Payment Mode: MP05
+Payment Terms Reference Date: 2024-08-01
+Payment Terms (Days): 60
+Payment amount: 1247.92
+Bank: Global Trust Bank
+IBAN: NL82R9475K2703L94726N391
+
+Document Type: TD01Your Ref. 7392846105</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            1461.14
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="EUR">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="EUR">
+            1461.14
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="EUR">
+            1461.14
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            29.27
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - ONLINE BILL OF LADING</cbc:Description>
+            <cbc:Name>EN - ONLINE BILL OF LADING</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">29.27</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            23.42
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - EXPORT CUSTOMS OPERATIONS</cbc:Description>
+            <cbc:Name>EN - EXPORT CUSTOMS OPERATIONS</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">23.42</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            105.38
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - COLLECTION</cbc:Description>
+            <cbc:Name>EN - COLLECTION</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">105.38</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            385.7
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - MISCELLANEOUS EXPENSES</cbc:Description>
+            <cbc:Name>EN - MISCELLANEOUS EXPENSES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">385.7</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">4.38</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            4.83
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EMISSION TRADING SYSTEM (ETS) SURCHARGE</cbc:Description>
+            <cbc:Name>EMISSION TRADING SYSTEM (ETS) SURCHARGE</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">1.1</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">4.38</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            51.28
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - LCL HANDLING CHARGES</cbc:Description>
+            <cbc:Name>EN - LCL HANDLING CHARGES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">11.71</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">4.38</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            692.33
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - SEA FREIGHT</cbc:Description>
+            <cbc:Name>EN - SEA FREIGHT</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">158.07</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">4.38</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="EUR">
+            168.94
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>EN - EMERGENCY RISK SURCHARGE</cbc:Description>
+            <cbc:Name>EN - EMERGENCY RISK SURCHARGE</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="EUR">38.57</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

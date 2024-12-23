@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>2wWckdQsnrsP2ncq</cbc:ID>
+    <cbc:IssueDate>2023-08-05</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+HADIMKOY APPLE 847 3726 4591 82153
+No withholding tax applies when not self-owned according to law
+This invoice must be paid by: 01/08/24
+PLEASE INDICATE THE VEHICLE PLATE NUMBER AND INVOICE NUMBER IN THE DESCRIPTION OF YOUR BANK TRANSFER RECEIPT
+For invoices not paid by due date, late payment interest will be charged according to the Law on Collection Procedure of Public Receivables (AATUHK).
+Only FourThousandThirtyTwoTL</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>S.C 200 GREENPORT AIRPORT CARGO TERMINAL LOG.SERV.MOTOR CARRIERS COOP.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Cargo Terminal Cooperative Service</cbc:StreetName>
+                <cbc:CityName>London</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL FREIGHT SOLUTIONS LTD.CO</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>London</cbc:StreetName>
+                <cbc:CityName>None</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>847 3726 4591 82153No withholding tax applies when not self-owned according to lawThis invoice must be paid by: 01/08/24PLEASE INDICATE THE VEHICLE PLATE NUMBER AND INVOICE NUMBER IN THE DESCRIPTION OF YOUR BANK TRANSFER RECEIPTFor invoices not paid by due date, late payment interest will be charged according to the Law on Collection Procedure of Public Receivables (AATUHK).Only FourThousandThirtyTwoTL</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            5735.72
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            1147.14
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            6882.86
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            6882.86
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            5735.72
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TNA-ARNAVUTKOY transport fee-47KMN892</cbc:Description>
+            <cbc:Name>TNA-ARNAVUTKOY transport fee-47KMN892</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">5735.72</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

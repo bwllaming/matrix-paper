@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>RUorLZkTlm3oMMRi</cbc:ID>
+    <cbc:IssueDate>2025-06-13</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+SERVICE HAS BEEN PERFORMED BY SUBCONTRACTORS.
+Customer Reference: TR 847392651,TR 847392651,TR 847392652,TR 847392652,TR 847392653,TR 847392653,TR 847392654,TR 847392654,TR 847392655,TR 847392655
+Due Date: 01/10/2024, 60 DAYS Payment Term</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Northern Star Transportation Cooperative</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Maple Valley Road Business Center</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>34490</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+SERVICE HAS BEEN PERFORMED BY SUBCONTRACTORS.
+Customer Reference: TR 847392651,TR 847392651,TR 847392652,TR 847392652,TR 847392653,TR 847392653,TR 847392654,TR 847392654,TR 847392655,TR 847392655
+Due Date: 01/10/2024, 60 DAYS Payment Term</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            138196.67
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            27639.33
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            165836.01
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            165836.01
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            22486.24
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 01/08 XR738291 47KVN82 Triangle Bursa HC 40 PSKU7463819 TR 847392651</cbc:Description>
+            <cbc:Name>Export Gemlik 01/08 XR738291 47KVN82 Triangle Bursa HC 40 PSKU7463819 TR 847392651</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">22486.24</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            4684.63
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 PSKU7463819 Export Waiting TR 847392651</cbc:Description>
+            <cbc:Name>HC 40 PSKU7463819 Export Waiting TR 847392651</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">4684.63</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            22486.24
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 01/08 XR738292 52MNP93 Triangle Bursa HC 40 QSKU8374629 TR 847392652</cbc:Description>
+            <cbc:Name>Export Gemlik 01/08 XR738292 52MNP93 Triangle Bursa HC 40 QSKU8374629 TR 847392652</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">22486.24</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            2342.32
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 QSKU8374629 Export Waiting TR 847392652</cbc:Description>
+            <cbc:Name>HC 40 QSKU8374629 Export Waiting TR 847392652</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">2342.32</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            22486.24
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 01/08 XR738293 63LKJ45 Triangle Bursa HC 40 RSKU9283746 TR 847392653</cbc:Description>
+            <cbc:Name>Export Gemlik 01/08 XR738293 63LKJ45 Triangle Bursa HC 40 RSKU9283746 TR 847392653</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">22486.24</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>6</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            2342.32
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 RSKU9283746 Export Waiting TR 847392653</cbc:Description>
+            <cbc:Name>HC 40 RSKU9283746 Export Waiting TR 847392653</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">2342.32</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>7</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            22486.24
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 01/08 XR738294 74HGF21 Triangle Bursa HC 40 SSKU1928374 TR 847392654</cbc:Description>
+            <cbc:Name>Export Gemlik 01/08 XR738294 74HGF21 Triangle Bursa HC 40 SSKU1928374 TR 847392654</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">22486.24</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>8</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            9369.27
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 SSKU1928374 Import Waiting TR 847392654</cbc:Description>
+            <cbc:Name>HC 40 SSKU1928374 Import Waiting TR 847392654</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">9369.27</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>9</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            22486.24
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Export Gemlik 01/08 XR738295 85POI76 Triangle Bursa HC 40 TSKU2837465 TR 847392655</cbc:Description>
+            <cbc:Name>Export Gemlik 01/08 XR738295 85POI76 Triangle Bursa HC 40 TSKU2837465 TR 847392655</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">22486.24</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>10</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            7026.95
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>HC 40 TSKU2837465 Export Waiting TR 847392655</cbc:Description>
+            <cbc:Name>HC 40 TSKU2837465 Export Waiting TR 847392655</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">7026.95</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

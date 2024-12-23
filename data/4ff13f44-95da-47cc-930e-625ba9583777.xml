@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>4LzLOZK22dCCPQnb</cbc:ID>
+    <cbc:IssueDate>2024-06-04</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>EXEMPTION
+NOTE: ONLY: ONE THOUSAND THREE HUNDRED FORTY-SEVEN USD AND EIGHTY-FIVE CENTS
+UPR:Reference No:XK9472615833
+NOTE:ETA:04-07-2024
+NOTE:ETD:22-03-2024
+NOTE:PCD:22-03-2024
+NOTE:1. Issued without VAT according to Article 14/1 of Law No. 3065
+UPL: Bill of Lading No: 892647513
+UPL:Note: 7391564820
+UPR:Invoice Date:05.08.2024
+UPR:Customer No:NK8472615
+UPR:Invoice Due:30 Days Term
+UPR:Payment Date(Note 4):04.09.2024
+NOTE:PL: Iskenderun
+NOTE:DL: Douala
+NOTE:DL: Douala
+NOTE:VSN: OCEANEX VOYAGER / 721N
+NOTE:SNO: 1
+NOTE:CNO: OCNX7524891
+NOTE:SNO: 2
+NOTE:CNO: OCNX9638527
+NOTE:CTY: 40 / 9.6 / DRY
+NOTE:TRM: CY-CY
+[Rest of header note translated and anonymized while maintaining structure]</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>OceanCargo Global Ltd</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>123 Maritime Boulevard</cbc:StreetName>
+                <cbc:CityName>Rotterdam</cbc:CityName>
+                <cbc:PostalZone>3072AP</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Logistics Partners Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>456 Freight Avenue</cbc:StreetName>
+                <cbc:CityName>Hamburg</cbc:CityName>
+                <cbc:PostalZone>20457</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>EXEMPTION
+NOTE: ONLY: ONE THOUSAND THREE HUNDRED FORTY-SEVEN USD AND EIGHTY-FIVE CENTS
+UPR:Reference No:XK9472615833
+NOTE:ETA:04-07-2024
+NOTE:ETD:22-03-2024
+NOTE:PCD:22-03-2024
+NOTE:1. Issued without VAT according to Article 14/1 of Law No. 3065
+UPL: Bill of Lading No: 892647513
+UPL:Note: 7391564820
+UPR:Invoice Date:05.08.2024
+UPR:Customer No:NK8472615
+UPR:Invoice Due:30 Days Term
+UPR:Payment Date(Note 4):04.09.2024
+NOTE:PL: Iskenderun
+NOTE:DL: Douala
+NOTE:DL: Douala
+NOTE:VSN: OCEANEX VOYAGER / 721N
+NOTE:SNO: 1
+NOTE:CNO: OCNX7524891
+NOTE:SNO: 2
+NOTE:CNO: OCNX9638527
+NOTE:CTY: 40 / 9.6 / DRY
+NOTE:TRM: CY-CY
+[Rest of payment terms translated and anonymized while maintaining structure and banking details]</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            2067.29
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            2067.29
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            2067.29
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            299.08
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Ocean Freight</cbc:Description>
+            <cbc:Name>Ocean Freight</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">299.08</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            1265.36
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Fuel Adjustment Factor</cbc:Description>
+            <cbc:Name>Fuel Adjustment Factor</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">1265.36</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>3</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            58.05
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Free In</cbc:Description>
+            <cbc:Name>Free In</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">58.05</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>4</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            383.44
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Peak Season Charge</cbc:Description>
+            <cbc:Name>Peak Season Charge</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">383.44</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>5</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            61.35
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Electronic Cargo Release Service - Export</cbc:Description>
+            <cbc:Name>Electronic Cargo Release Service - Export</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">61.35</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

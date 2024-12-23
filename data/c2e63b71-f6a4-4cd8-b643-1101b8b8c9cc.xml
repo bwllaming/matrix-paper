@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>hMfbQ0tJyQ0pvwjH</cbc:ID>
+    <cbc:IssueDate>2023-12-11</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE, 02.08.2024 / 7829 463 185 / 3 PALLETS/ STARLIGHT TEXTILES WESTPORT / TRANSPORTATION FEE / NO DEDUCTION AS SUBCONTRACTOR WAS USED, Position No: KMEXP24-9371846, , Ref No: KITTRKEX-9284751, , Delivery Note No: , Exchange Rate: , TL Amount: 6.000,00 -In words: Six Thousand TL-, Tax Exemption Information: #RECIPIENT_TAG#urn:mail:defaultpk@global-logistics.com#</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>ATLAS INTERNATIONAL TRANSPORT &amp; LOGISTICS CO.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>OCEANVIEW DISTRICT, HARBOR BOULEVARD NO:384/42 PORTSIDE/SEASIDE</cbc:StreetName>
+                <cbc:CityName>SEASIDE</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS SERVICES LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>PACIFIC DISTRICT 1353 STREET NO:2/41 MARITIME BUSINESS CENTER</cbc:StreetName>
+                <cbc:CityName>SEASIDE</cbc:CityName>
+                <cbc:PostalZone>35220</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE, 02.08.2024 / 7829 463 185 / 3 PALLETS/ STARLIGHT TEXTILES> WESTPORT / TRANSPORTATION FEE / NO DEDUCTION AS SUBCONTRACTOR WAS USED, Position No: KMEXP24-9371846, , Ref No: KITTRKEX-9284751, , Delivery Note No: , Exchange Rate: , TL Amount: 6.000,00 -In words: Six Thousand TL-, Tax Exemption Information: #RECIPIENT_TAG#urn:mail:defaultpk@global-logistics.com#</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            9417.75
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            1883.55
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            11301.3
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            11301.3
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            9417.75
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INTERNAL FINAL TRANSPORT</cbc:Description>
+            <cbc:Name>INTERNAL FINAL TRANSPORT</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">9417.75</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>BfZALnzQvV7hXTOF</cbc:ID>
+    <cbc:IssueDate>2024-04-14</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>EXEMPT
+#BIMNO=XKYZPT987654321#
+Business Registry No:9876543210123456
+This invoice will be paid in the currency it was issued. Invoice registration amount is TL 12535.92.
+Only THREE HUNDRED SEVENTY NINE USD
+BL: XKPQR789012345
+AGENCY_X / 9876543210
+Exchange Rate: 33.07630
+VESSEL NAME/VOYAGE NO: GLOBAL VOYAGER / XV789R
+VESSEL ARRIVAL/DEPARTURE DATE: 20240804
+LOADING PORT: FIOUL (OULU (ULEABORG))
+DISCHARGE PORT: TRIZM (IZMIR)
+REGION: Izmir
+Shipper: NORTHERN LOGISTICS LTD
+Consignee: GLOBAL FREIGHT SOLUTIONS LTD.
+Notify: GLOBAL FREIGHT SOLUTIONS LTD.
+Container No: XKLN8901234 XKLN8901234
+Package Details: 990
+Cubic Meters: 43.5600
+Container Gross Tons: 29573.2500
+Gross Tons: 25913.2500
+USD / USD Parity = 1.00000
+#MECRA=XKPQR789012345#
+
+[ANONYMIZED OFFICE ADDRESSES]</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Ocean Shipping Services Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Harbor View Street 123</cbc:StreetName>
+                <cbc:CityName>Izmir</cbc:CityName>
+                <cbc:PostalZone>35230</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Freight Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Zone Block B</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>34306</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>EXEMPT
+#BIMNO=XKYZPT987654321#
+Business Registry No:9876543210123456
+This invoice will be paid in the currency it was issued. Invoice registration amount is TL 12535.92.
+Only THREE HUNDRED SEVENTY NINE USD
+BL: XKPQR789012345
+AGENCY_X / 9876543210
+Exchange Rate: 33.07630
+VESSEL NAME/VOYAGE NO: GLOBAL VOYAGER / XV789R
+VESSEL ARRIVAL/DEPARTURE DATE: 20240804
+LOADING PORT: FIOUL (OULU (ULEABORG))
+DISCHARGE PORT: TRIZM (IZMIR)
+REGION: Izmir
+Shipper: NORTHERN LOGISTICS LTD
+Consignee: GLOBAL FREIGHT SOLUTIONS LTD.
+Notify: GLOBAL FREIGHT SOLUTIONS LTD.
+Container No: XKLN8901234 XKLN8901234
+Package Details: 990
+Cubic Meters: 43.5600
+Container Gross Tons: 29573.2500
+Gross Tons: 25913.2500
+USD / USD Parity = 1.00000
+#MECRA=XKPQR789012345#
+
+[ANONYMIZED OFFICE ADDRESSES]</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            558.85
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            37.78
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            596.63
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            596.63
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            369.94
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>DISCHARGE AND TERMINAL SERVICES</cbc:Description>
+            <cbc:Name>DISCHARGE AND TERMINAL SERVICES</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">369.94</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            188.91
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>IMPORT PORT SERVICE</cbc:Description>
+            <cbc:Name>IMPORT PORT SERVICE</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">188.91</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>GBrsj4DMoYNhOpOU</cbc:ID>
+    <cbc:IssueDate>2023-08-28</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE
+SERVICE HAS BEEN PERFORMED BY SUBCONTRACTORS AND WE HAVE BEEN ISSUED A WITHHOLDING INVOICE...
+NILUFER UCGE EXTERNAL 783940215
+Invoice Due Date: 14.09.2024
+IN WORDS: Twelve thousand TL
+Other Delivery Notes: XR82951 - 30.07.2024</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>CROWN BROTHERS TRANSPORT SERVICES CONSTRUCTION IND. AND TRADE LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>None</cbc:StreetName>
+                <cbc:CityName>BURSA</cbc:CityName>
+                <cbc:PostalZone>16335</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL LOGISTICS TRANSPORT LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>IKITELLI ORGANIZED IND. ZONE TURGUT OZAL BLVD. 17TH ST. NO:2</cbc:StreetName>
+                <cbc:CityName>LONDON</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE
+SERVICE HAS BEEN PERFORMED BY SUBCONTRACTORS AND WE HAVE BEEN ISSUED A WITHHOLDING INVOICE...
+NILUFER UCGE EXTERNAL 783940215
+Invoice Due Date: 14.09.2024
+IN WORDS: Twelve thousand TL
+Other Delivery Notes: XR82951 - 30.07.2024</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            14578.0
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            2915.6
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            17493.6
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            17493.6
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            7289.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TRANSPORTATION FEE GEMLIK NILUFER MRKU474865-3</cbc:Description>
+            <cbc:Name>TRANSPORTATION FEE GEMLIK NILUFER MRKU474865-3</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">7289.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+    <cac:InvoiceLine>
+        <cbc:ID>2</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            7289.0
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>TRANSPORTATION FEE GEMLIK NILUFER PONU781217-2</cbc:Description>
+            <cbc:Name>TRANSPORTATION FEE GEMLIK NILUFER PONU781217-2</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">7289.0</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

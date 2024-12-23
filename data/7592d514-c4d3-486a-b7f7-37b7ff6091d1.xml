@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>qQn7Unvjt921xApe</cbc:ID>
+    <cbc:IssueDate>2024-09-03</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALE, 18.08.2024 / 7392846105 / 8 PIECES /SEAPORT PURCHASE > TECHCORP / TRANSPORTATION FEE / NO WITHHOLDING TAX DUE TO SUBCONTRACTOR USAGE, PosNo: TMEX24-9384756, RefNo: TILTRKSP-9273645, Delivery Note: , Exchange Rate: , TL Amount: 12.300,00 - TL-, Tax Exemption Information: #BUYER_TAG#urn:mail:defaultpk@global-logistics.com#</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Transport Solutions Inc.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Ocean View Boulevard, Business Center No:245/12</cbc:StreetName>
+                <cbc:CityName>Springfield</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>International Logistics Corporation Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Maritime Plaza, 892 Harbor Street, Suite 3/21</cbc:StreetName>
+                <cbc:CityName>Springfield</cbc:CityName>
+                <cbc:PostalZone>45678</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALE, 18.08.2024 / 7392846105 / 8 PIECES /SEAPORT PURCHASE > TECHCORP / TRANSPORTATION FEE / NO WITHHOLDING TAX DUE TO SUBCONTRACTOR USAGE, PosNo: TMEX24-9384756, RefNo: TILTRKSP-9273645, Delivery Note: , Exchange Rate: , TL Amount: 12.300,00 - TL-, Tax Exemption Information: #BUYER_TAG#urn:mail:defaultpk@global-logistics.com#</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            5163.3
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            1032.66
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            6195.96
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            6195.96
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            5163.3
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>INTERNAL FINAL TRANSPORT</cbc:Description>
+            <cbc:Name>INTERNAL FINAL TRANSPORT</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">5163.3</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

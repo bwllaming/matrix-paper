@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>wYPT9kGK8IGPoPMT</cbc:ID>
+    <cbc:IssueDate>2024-11-21</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>EXEMPT
+Vessel : NORDIC VOYAGER
+File no : TRN/DBN/9384651/02/24
+BL no : TRK/INT/78392
+Container(s) : MXPU 765432-1
+Packages : 1
+Weight : 920.000 KGM
+Volume : 1.000 CBM
+Exchange Rate : 33.078200
+Service Amount for Accounting : 4630.95
+Loading Port : ISTANBUL
+Destination Port : DURBAN
+!#ELECTRONIC#
+Bill of Lading Number: TRK/INT/78392
+File Number: TRN/DBN/9384651/02/24</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>GLOBAL SHIPPING SOLUTIONS LTD.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>SUNRISE BOULEVARD BUSINESS CENTER NO:12 FLOOR 6</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>None</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>WORLDWIDE LOGISTICS PARTNERS INC.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>BUSINESS DISTRICT TOWER 3 FLOOR 7</cbc:StreetName>
+                <cbc:CityName>Istanbul</cbc:CityName>
+                <cbc:PostalZone>34490</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>EXEMPT
+Vessel : NORDIC VOYAGER
+File no : TRN/DBN/9384651/02/24
+BL no : TRK/INT/78392
+Container(s) : MXPU 765432-1
+Packages : 1
+Weight : 920.000 KGM
+Volume : 1.000 CBM
+Exchange Rate : 33.078200
+Service Amount for Accounting : 4630.95
+Loading Port : ISTANBUL
+Destination Port : DURBAN
+!#ELECTRONIC#
+Bill of Lading Number: TRK/INT/78392
+File Number: TRN/DBN/9384651/02/24</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="USD">
+            221.35
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="USD">
+            0.0
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="USD">
+            221.35
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="USD">
+            221.35
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">1.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="USD">
+            221.35
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>FREIGHT</cbc:Description>
+            <cbc:Name>FREIGHT</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="USD">221.35</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>

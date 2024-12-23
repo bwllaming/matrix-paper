@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+         xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+         xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+    <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0</cbc:CustomizationID>
+    <cbc:ID>FUv0sVAy8vyXSqeF</cbc:ID>
+    <cbc:IssueDate>2024-09-17</cbc:IssueDate>
+    <cbc:InvoiceTypeCode>Invoice</cbc:InvoiceTypeCode>
+    <cbc:DocumentCurrencyCode>TRY</cbc:DocumentCurrencyCode>
+    
+    <cbc:Note>SALEONLY: ONE THOUSAND FIVE HUNDRED TWENTY-SIX TL AND FORTY KRShip Name: MSC ATLAS 7Berthing Date:Ship Voyage No: XY789BShip Agent: GLOBAL SHIPPING AGENCY CO.Payment Date: 03.02.2024Last Service Date: 05.03.2024PO Number:BRANCH: Branch; OCEANVIEW DIST. HARBOR ST. NO:1; 41780 BAYSIDE / MARMARA; Tel: 0 883 492 39 42-82 Fax: 0 (193) 149 23 13Exchange Rate: 1CNTU8275931 service 05/03/2024 05/03/2024CNMU7391846 service 05/0832024 05/03/2024CNSU9482751 service 05/03/2024 05/03/2024Maritime Services Inc. reserves the right to apply commercial late payment interest to unpaid invoicesContact Person &amp; Information: Portex Job PTXJOB - customerservice@portex.com - (2993) 293 59 69DTY:SAP Invoice No: 299472479BTR: VBRKInvoice is in TRY. Payments made in currencies other than the invoice currency will not gain value against this invoice.Bank DetailsTL: TR840009300000487651239874: COMMERCE BANK - CENTRAL BR. - 4876</cbc:Note>
+    
+
+    <cac:AccountingSupplierParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Maritime Services and Logistics Corporation</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Maritime Industrial Zone Harbor Avenue X-1 Special Plot</cbc:StreetName>
+                <cbc:CityName>Oslo</cbc:CityName>
+                <cbc:PostalZone>82842</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingSupplierParty>
+
+    <cac:AccountingCustomerParty>
+        <cac:Party>
+            <cac:PartyName>
+                <cbc:Name>Global Freight Solutions Ltd.</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:StreetName>Industrial Zone Complex</cbc:StreetName>
+                <cbc:CityName>Oslo</cbc:CityName>
+                <cbc:PostalZone>23994</cbc:PostalZone>
+                <cac:Country>
+                    <cbc:IdentificationCode>TR</cbc:IdentificationCode>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:Party>
+    </cac:AccountingCustomerParty>
+
+    
+    <cac:PaymentTerms>
+        <cbc:Note>SALEONLY: ONE THOUSAND FIVE HUNDRED TWENTY-SIX TL AND FORTY KRShip Name: MSC ATLAS 7Berthing Date:Ship Voyage No: XY789BShip Agent: GLOBAL SHIPPING AGENCY CO.Payment Date: 03.02.2024Last Service Date: 05.03.2024PO Number:BRANCH: Branch; OCEANVIEW DIST. HARBOR ST. NO:1; 41780 BAYSIDE / MARMARA; Tel: 0 883 492 39 42-82 Fax: 0 (193) 149 23 13Exchange Rate: 1CNTU8275931 service 05/03/2024 05/03/2024CNMU7391846 service 05/0832024 05/03/2024CNSU9482751 service 05/03/2024 05/03/2024Maritime Services Inc. reserves the right to apply commercial late payment interest to unpaid invoicesContact Person &amp; Information: Portex Job PTXJOB - customerservice@portex.com - (2993) 293 59 69DTY:SAP Invoice No: 299472479BTR: VBRKInvoice is in TRY. Payments made in currencies other than the invoice currency will not gain value against this invoice.Bank DetailsTL: TR840009300000487651239874: COMMERCE BANK - CENTRAL BR. - 4876</cbc:Note>
+    </cac:PaymentTerms>
+    
+
+    <cac:LegalMonetaryTotal>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            1868.9
+        </cbc:LineExtensionAmount>
+        <cbc:TaxExclusiveAmount currencyID="TRY">
+            373.78
+        </cbc:TaxExclusiveAmount>
+        <cbc:TaxInclusiveAmount currencyID="TRY">
+            2242.68
+        </cbc:TaxInclusiveAmount>
+        <cbc:PayableAmount currencyID="TRY">
+            2242.68
+        </cbc:PayableAmount>
+    </cac:LegalMonetaryTotal>
+
+    
+    <cac:InvoiceLine>
+        <cbc:ID>1</cbc:ID>
+        <cbc:InvoicedQuantity unitCode="EA">3.0</cbc:InvoicedQuantity>
+        <cbc:LineExtensionAmount currencyID="TRY">
+            1868.9
+        </cbc:LineExtensionAmount>
+        <cac:Item>
+            <cbc:Description>Container Weighing Service 40" GP Export Full</cbc:Description>
+            <cbc:Name>Container Weighing Service 40" GP Export Full</cbc:Name>
+        </cac:Item>
+        <cac:Price>
+            <cbc:PriceAmount currencyID="TRY">622.97</cbc:PriceAmount>
+        </cac:Price>
+    </cac:InvoiceLine>
+    
+</Invoice>
